@@ -3,5 +3,6 @@
 require 'httparty'
 require 'json'
 require 'time'
+require 'forwardable'
 
 require 'bot/the_train_line/base'

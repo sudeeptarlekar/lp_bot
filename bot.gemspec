@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 3.3.0'
 
   s.add_dependency 'httparty', '~> 0.24.2'
+  s.add_dependency 'money', '~> 7.0'
 end

@@ -3,19 +3,26 @@
 module Bot
   module TheTrainLine
     class Fare
-      attr_accessor :id, :name, :price, :currency, :type, :journey_id
+      extend Forwardable
+
+      attr_accessor :id, :type
+
+      def_delegator :type, :name
 
       def initialize(id:, type:)
         @id = id
         @type = type
       end
 
+      def valid?
+        !currency.nil? && !price.nil?
+      end
+
       def as_json
         {
-          name: name,
+          name: type.name,
           price_in_cents: price,
-          currency: currency,
-          type: type.name
+          currency: currency
         }
       end
     end
@@ -28,9 +35,24 @@ module Bot
         @code = code
         @name = name
       end
+    end
 
-      def self.from_json(json)
-        new(id: json['id'], code: json['code'], name: json['name'])
+    class SegmentFare
+      attr_accessor :fare, :price, :currency
+
+      def initialize(fare:, price:, currency:)
+        @fare = fare
+        @price = price
+        @currency = currency
+      end
+
+      def as_json
+        money = Money.from_amount(price, currency)
+        {
+          name: fare.name,
+          price_in_cents: money.fractional,
+          currency: money.currency.iso_code
+        }
       end
     end
   end
