@@ -15,6 +15,12 @@ module Bot
           hash[id] = FareType.from_json(type)
         end
       end
+
+      def parse_transport_modes
+        @transports = json_data['transportModes'].each_with_object({}) do |(id, mode), modes_hash|
+          modes_hash[id] = TransportMode.from_json(mode)
+        end
+      end
     end
   end
 end

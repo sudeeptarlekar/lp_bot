@@ -2,6 +2,7 @@
 
 require_relative 'location'
 require_relative 'fare'
+require_relative 'transport_mode'
 require_relative 'parsers/response_parser'
 
 module Bot
@@ -11,6 +12,7 @@ module Bot
         json_data = fetch_data(from, to)
         parser = ResponseParser.new(json_data, departure_time)
         parser.parse_fare_types
+        parser.parse_transport_modes
       end
 
       private
