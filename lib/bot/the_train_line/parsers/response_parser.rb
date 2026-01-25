@@ -16,6 +16,13 @@ module Bot
         end
       end
 
+      def parse_fares
+        @fares = json_data['journeySearch']['fares'].each_with_object({}) do |(id, fare), fare_hash|
+          type = fare_types[fare['fareType']]
+          fare_hash[id] = Fare.new(id: id, type: type)
+        end
+      end
+
       def parse_transport_modes
         @transports = json_data['transportModes'].each_with_object({}) do |(id, mode), modes_hash|
           modes_hash[id] = TransportMode.from_json(mode)

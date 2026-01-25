@@ -13,6 +13,7 @@ module Bot
         parser = ResponseParser.new(json_data, departure_time)
         parser.parse_fare_types
         parser.parse_transport_modes
+        parser.parse_fares
       end
 
       private
