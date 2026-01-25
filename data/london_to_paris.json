@@ -1,0 +1,4847 @@
+{
+  "data": {
+    "journeySearch": {
+      "passengers": {
+        "pid-0": {
+          "id": "pid-0",
+          "dateOfBirth": "1991-01-24T00:00:00"
+        }
+      },
+      "journeys": {
+        "journey-71d79b0d-67aa-481d-b85f-1ad383cd7467": {
+          "sections": [
+            "section-b47a8993-4763-46fe-a473-7e24fb868139"
+          ],
+          "id": "journey-71d79b0d-67aa-481d-b85f-1ad383cd7467",
+          "direction": "outward",
+          "legs": [
+            "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+          ],
+          "departAt": "2026-01-24T12:31:00+00:00",
+          "arriveAt": "2026-01-24T16:01:00+01:00",
+          "duration": "PT2H30M",
+          "hash": "0yojNOIsaYE=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-bf5d15c6-5bf8-412b-a4ad-6324d5323f42": {
+          "sections": [
+            "section-007a4fa0-ef77-4f33-b2e0-ac06e6d91892"
+          ],
+          "id": "journey-bf5d15c6-5bf8-412b-a4ad-6324d5323f42",
+          "direction": "outward",
+          "legs": [
+            "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+          ],
+          "departAt": "2026-01-24T14:31:00+00:00",
+          "arriveAt": "2026-01-24T17:49:00+01:00",
+          "duration": "PT2H18M",
+          "hash": "mfICKrqcGCQ=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-0b837fb8-8a35-4d99-a40f-e03bc28314a3": {
+          "sections": [
+            "section-c47b346d-26c4-4072-98e6-c99c4b07d490"
+          ],
+          "id": "journey-0b837fb8-8a35-4d99-a40f-e03bc28314a3",
+          "direction": "outward",
+          "legs": [
+            "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+          ],
+          "departAt": "2026-01-24T15:31:00+00:00",
+          "arriveAt": "2026-01-24T18:49:00+01:00",
+          "duration": "PT2H18M",
+          "hash": "YHjvt9ciKII=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-67be808f-b640-44cf-bded-046fde96be83": {
+          "sections": [
+            "section-4fba7334-c088-4fe1-8c87-c2b5b6ac2012"
+          ],
+          "id": "journey-67be808f-b640-44cf-bded-046fde96be83",
+          "direction": "outward",
+          "legs": [
+            "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+          ],
+          "departAt": "2026-01-24T16:31:00+00:00",
+          "arriveAt": "2026-01-24T19:49:00+01:00",
+          "duration": "PT2H18M",
+          "hash": "m/pffy9NIDY=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        }
+      },
+      "createdAt": "2026-01-24T10:25:49.0910723Z",
+      "pagination": {
+        "next": {
+          "outward": true,
+          "inward": false
+        },
+        "previous": {
+          "outward": true,
+          "inward": false
+        }
+      },
+      "id": "36e755c2-9eb6-4d3e-bf23-e6acf17eacee",
+      "expiresAt": "2026-01-24T11:05:47Z",
+      "alternatives": {
+        "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-303c392b-1624-4ebf-b04e-d356aa11de68|journey-71d79b0d-67aa-481d-b85f-1ad383cd7467": {
+          "id": "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-303c392b-1624-4ebf-b04e-d356aa11de68|journey-71d79b0d-67aa-481d-b85f-1ad383cd7467",
+          "price": {
+            "amount": 262,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fullPrice": {
+            "amount": 262,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fares": [
+            "fare-49d10056-232e-4ad0-aa23-356f50878761"
+          ],
+          "farePassengers": [
+            {
+              "passengers": [
+                {
+                  "id": "pid-0",
+                  "passengerType": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21"
+                }
+              ],
+              "fareId": "fare-49d10056-232e-4ad0-aa23-356f50878761"
+            }
+          ],
+          "isPartial": false,
+          "flexibility": {
+            "code": "urn:trainline:flex:semiflexi",
+            "name": "semiflexi",
+            "language": "en"
+          },
+          "vendorInformation": {
+            "id": "9c4bb4dd91086a182df549ea63b5675f75824aeb",
+            "code": "urn:trainline:eurostardirect:vendor:eurostardirect",
+            "name": "EurostarDirect",
+            "description": null
+          },
+          "selectedExtras": [
+            {
+              "id": "7028fd6c-a353-406b-b377-88e230146dc0",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-aeb4a579-a595-4315-8176-3368479150c6"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "314b2c19-13d1-49e1-97a0-ed066f324c35",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "a49c2f9ecd1c5b23c8c4f19bd3daa907e74add39",
+                "code": "urn:trainline:eurostardirect:extra:meal_on_board-1a1933b25432cfa95db2b2c9659fdb30",
+                "name": "Buy drinks, meals and snacks on board",
+                "description": null,
+                "group": "restaurant"
+              },
+              "farePassengerIds": [
+                "fare-passenger-aeb4a579-a595-4315-8176-3368479150c6"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "463b93be-d6bc-415b-a254-0a9b70ff60e7",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-aeb4a579-a595-4315-8176-3368479150c6"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "3214975c-8f27-45d1-9917-4a6ebaa643dc",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-aeb4a579-a595-4315-8176-3368479150c6"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            }
+          ],
+          "comfortClassCorrelationToken": "0d0f4da0f90f11f094a8f174fc68da4f",
+          "billableUnits": [
+            {
+              "correlationToken": "passenger_1",
+              "fareLegIds": [
+                "fare-leg-1bc2a5ff-28d0-4cd7-82bc-05cb8655aff3"
+              ],
+              "originalPrice": {
+                "amount": 262,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "price": {
+                "amount": 262,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "passengerIds": [
+                "pid-0"
+              ]
+            }
+          ],
+          "hash": "ASVp8BsYgsw=",
+          "composition": [],
+          "availableExtras": [
+            {
+              "id": "7028fd6c-a353-406b-b377-88e230146dc0",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-aeb4a579-a595-4315-8176-3368479150c6"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "314b2c19-13d1-49e1-97a0-ed066f324c35",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "a49c2f9ecd1c5b23c8c4f19bd3daa907e74add39",
+                "code": "urn:trainline:eurostardirect:extra:meal_on_board-1a1933b25432cfa95db2b2c9659fdb30",
+                "name": "Buy drinks, meals and snacks on board",
+                "description": null,
+                "group": "restaurant"
+              },
+              "farePassengerIds": [
+                "fare-passenger-aeb4a579-a595-4315-8176-3368479150c6"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "463b93be-d6bc-415b-a254-0a9b70ff60e7",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-aeb4a579-a595-4315-8176-3368479150c6"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "3214975c-8f27-45d1-9917-4a6ebaa643dc",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-aeb4a579-a595-4315-8176-3368479150c6"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            }
+          ],
+          "savings": [],
+          "expiresAt": "2026-01-24T11:05:47Z"
+        },
+        "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-7f9f8ea9-fb93-46eb-a580-fa35f3fd4316|journey-71d79b0d-67aa-481d-b85f-1ad383cd7467": {
+          "id": "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-7f9f8ea9-fb93-46eb-a580-fa35f3fd4316|journey-71d79b0d-67aa-481d-b85f-1ad383cd7467",
+          "price": {
+            "amount": 372,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fullPrice": {
+            "amount": 372,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fares": [
+            "fare-d5e53450-e809-4ed4-9384-11d9bac5b40e"
+          ],
+          "farePassengers": [
+            {
+              "passengers": [
+                {
+                  "id": "pid-0",
+                  "passengerType": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21"
+                }
+              ],
+              "fareId": "fare-d5e53450-e809-4ed4-9384-11d9bac5b40e"
+            }
+          ],
+          "isPartial": false,
+          "flexibility": {
+            "code": "urn:trainline:flex:semiflexi",
+            "name": "semiflexi",
+            "language": "en"
+          },
+          "vendorInformation": {
+            "id": "9c4bb4dd91086a182df549ea63b5675f75824aeb",
+            "code": "urn:trainline:eurostardirect:vendor:eurostardirect",
+            "name": "EurostarDirect",
+            "description": null
+          },
+          "selectedExtras": [
+            {
+              "id": "7d4bee0d-ac38-498d-b43e-ea1881606072",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-45753f52-b18b-40a0-9955-64a5c7f3c640"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "9a3b2b30-ee49-431b-9f1b-7556154a45d2",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "8292f1e2ae8b1c4ec77a146eb50c42fc008c5d3b",
+                "code": "urn:trainline:eurostardirect:extra:meal_at_seat-724df30004897f89b92f3d7914d37ba2",
+                "name": "A delicious light meal and drinks served at your seat",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-45753f52-b18b-40a0-9955-64a5c7f3c640"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "a4d09532-8e12-42f5-9787-2ff54c0bd0bc",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-45753f52-b18b-40a0-9955-64a5c7f3c640"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "6bb828f8-b7d4-459f-a13d-2c952fccf5d5",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-45753f52-b18b-40a0-9955-64a5c7f3c640"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "2077ff63-9d79-4816-9225-6fa812003929",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-45753f52-b18b-40a0-9955-64a5c7f3c640"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            }
+          ],
+          "comfortClassCorrelationToken": "0d0f6042f90f11f093eaaab00a902dbf",
+          "billableUnits": [
+            {
+              "correlationToken": "passenger_1",
+              "fareLegIds": [
+                "fare-leg-ef397db5-327e-4aae-b301-0ced785a71e5"
+              ],
+              "originalPrice": {
+                "amount": 372,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "price": {
+                "amount": 372,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "passengerIds": [
+                "pid-0"
+              ]
+            }
+          ],
+          "hash": "j7miwbyoaxY=",
+          "composition": [],
+          "availableExtras": [
+            {
+              "id": "7d4bee0d-ac38-498d-b43e-ea1881606072",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-45753f52-b18b-40a0-9955-64a5c7f3c640"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "9a3b2b30-ee49-431b-9f1b-7556154a45d2",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "8292f1e2ae8b1c4ec77a146eb50c42fc008c5d3b",
+                "code": "urn:trainline:eurostardirect:extra:meal_at_seat-724df30004897f89b92f3d7914d37ba2",
+                "name": "A delicious light meal and drinks served at your seat",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-45753f52-b18b-40a0-9955-64a5c7f3c640"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "a4d09532-8e12-42f5-9787-2ff54c0bd0bc",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-45753f52-b18b-40a0-9955-64a5c7f3c640"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "6bb828f8-b7d4-459f-a13d-2c952fccf5d5",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-45753f52-b18b-40a0-9955-64a5c7f3c640"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "2077ff63-9d79-4816-9225-6fa812003929",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-45753f52-b18b-40a0-9955-64a5c7f3c640"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            }
+          ],
+          "savings": [],
+          "expiresAt": "2026-01-24T11:05:47Z"
+        },
+        "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-81392910-3069-4ac2-9c02-4a784e8d1e46|journey-71d79b0d-67aa-481d-b85f-1ad383cd7467": {
+          "id": "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-81392910-3069-4ac2-9c02-4a784e8d1e46|journey-71d79b0d-67aa-481d-b85f-1ad383cd7467",
+          "price": {
+            "amount": 400,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fullPrice": {
+            "amount": 400,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fares": [
+            "fare-64f1157b-f60c-44c3-9e28-22c28e8296c4"
+          ],
+          "farePassengers": [
+            {
+              "passengers": [
+                {
+                  "id": "pid-0",
+                  "passengerType": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21"
+                }
+              ],
+              "fareId": "fare-64f1157b-f60c-44c3-9e28-22c28e8296c4"
+            }
+          ],
+          "isPartial": false,
+          "flexibility": {
+            "code": "urn:trainline:flex:flexi",
+            "name": "flexi",
+            "language": "en"
+          },
+          "vendorInformation": {
+            "id": "9c4bb4dd91086a182df549ea63b5675f75824aeb",
+            "code": "urn:trainline:eurostardirect:vendor:eurostardirect",
+            "name": "EurostarDirect",
+            "description": null
+          },
+          "selectedExtras": [
+            {
+              "id": "7f179ddb-4e7a-4e2b-be0c-eaaf977e3fa9",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e11f0af395a0ff21a736f6e2606c729844a1bb76",
+                "code": "urn:trainline:eurostardirect:extra:same_day_boarding_guarantee-6763d4536a3eb77eb1a2d58791147b26",
+                "name": "Same-day boarding guarantee",
+                "description": null,
+                "group": "flexibility"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "14ffbf9b-c25e-4a40-9dfa-cf9d4899f769",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "5b663e5e855093f4b5e15b9b9a0881252d75ca72",
+                "code": "urn:trainline:eurostardirect:extra:priority_ticket_gates-242070bf07e02c1366fcbf9b89ab01c5",
+                "name": "Priority ticket gates",
+                "description": null,
+                "group": "boarding"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "e2a664ee-d7ca-41c9-ab27-4cc01da59629",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "05481fce1d496224e34845a6433146eac34800c9",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_lounge-27f3799d432e5d30b455983525247298",
+                "name": "Exclusive lounge access in London, Paris and Brussels",
+                "description": null,
+                "group": "departureLounge"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "fa2677eb-4d7d-426a-8c68-df865e081e3e",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "f49f0c4c0db1fbc12a60b996f4be6691774ef216",
+                "code": "urn:trainline:eurostardirect:extra:premier_luggage-7ad661cedd9be7ed50c6d004993ca239",
+                "name": "3 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "d0c0b30b-1472-4195-a688-558d6b0fb891",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e8feb65b23dd3ec1b38c2a7f9e6179daa3cf5409",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_premier_meal_at_seat-2f663e93afa6035f35d46602c8e1f0fa",
+                "name": "At-seat fine dining and drinks served by your dedicated on-board team",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "99da801f-eb8f-4b07-8cf7-3c0dd7dfbf80",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "3dbea5f7-5081-4dfc-b9d6-47d4105b39ad",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "a7972479-3903-4fdb-8059-9e68067c765f",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            }
+          ],
+          "comfortClassCorrelationToken": "0d0f7690f90f11f08a192c4c6e8b3d65",
+          "billableUnits": [
+            {
+              "correlationToken": "passenger_1",
+              "fareLegIds": [
+                "fare-leg-661c3127-f88c-4b65-a442-61c6df8a7a2a"
+              ],
+              "originalPrice": {
+                "amount": 400,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "price": {
+                "amount": 400,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "passengerIds": [
+                "pid-0"
+              ]
+            }
+          ],
+          "hash": "7EQmNja6A1Y=",
+          "composition": [],
+          "availableExtras": [
+            {
+              "id": "7f179ddb-4e7a-4e2b-be0c-eaaf977e3fa9",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e11f0af395a0ff21a736f6e2606c729844a1bb76",
+                "code": "urn:trainline:eurostardirect:extra:same_day_boarding_guarantee-6763d4536a3eb77eb1a2d58791147b26",
+                "name": "Same-day boarding guarantee",
+                "description": null,
+                "group": "flexibility"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "14ffbf9b-c25e-4a40-9dfa-cf9d4899f769",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "5b663e5e855093f4b5e15b9b9a0881252d75ca72",
+                "code": "urn:trainline:eurostardirect:extra:priority_ticket_gates-242070bf07e02c1366fcbf9b89ab01c5",
+                "name": "Priority ticket gates",
+                "description": null,
+                "group": "boarding"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "e2a664ee-d7ca-41c9-ab27-4cc01da59629",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "05481fce1d496224e34845a6433146eac34800c9",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_lounge-27f3799d432e5d30b455983525247298",
+                "name": "Exclusive lounge access in London, Paris and Brussels",
+                "description": null,
+                "group": "departureLounge"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "fa2677eb-4d7d-426a-8c68-df865e081e3e",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "f49f0c4c0db1fbc12a60b996f4be6691774ef216",
+                "code": "urn:trainline:eurostardirect:extra:premier_luggage-7ad661cedd9be7ed50c6d004993ca239",
+                "name": "3 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "d0c0b30b-1472-4195-a688-558d6b0fb891",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e8feb65b23dd3ec1b38c2a7f9e6179daa3cf5409",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_premier_meal_at_seat-2f663e93afa6035f35d46602c8e1f0fa",
+                "name": "At-seat fine dining and drinks served by your dedicated on-board team",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "99da801f-eb8f-4b07-8cf7-3c0dd7dfbf80",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "3dbea5f7-5081-4dfc-b9d6-47d4105b39ad",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            },
+            {
+              "id": "a7972479-3903-4fdb-8059-9e68067c765f",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-7b841a6b-e74b-4025-be90-1922a3488651"
+              ],
+              "legIds": [
+                "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8"
+              ]
+            }
+          ],
+          "savings": [],
+          "expiresAt": "2026-01-24T11:05:47Z"
+        },
+        "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-6f082d69-1f2f-4442-9b18-359b3381a9b6|journey-bf5d15c6-5bf8-412b-a4ad-6324d5323f42": {
+          "id": "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-6f082d69-1f2f-4442-9b18-359b3381a9b6|journey-bf5d15c6-5bf8-412b-a4ad-6324d5323f42",
+          "price": {
+            "amount": 262,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fullPrice": {
+            "amount": 262,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fares": [
+            "fare-6752c886-7a45-45e0-8f41-dadbe4bcf425"
+          ],
+          "farePassengers": [
+            {
+              "passengers": [
+                {
+                  "id": "pid-0",
+                  "passengerType": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21"
+                }
+              ],
+              "fareId": "fare-6752c886-7a45-45e0-8f41-dadbe4bcf425"
+            }
+          ],
+          "isPartial": false,
+          "flexibility": {
+            "code": "urn:trainline:flex:semiflexi",
+            "name": "semiflexi",
+            "language": "en"
+          },
+          "vendorInformation": {
+            "id": "9c4bb4dd91086a182df549ea63b5675f75824aeb",
+            "code": "urn:trainline:eurostardirect:vendor:eurostardirect",
+            "name": "EurostarDirect",
+            "description": null
+          },
+          "selectedExtras": [
+            {
+              "id": "1631dd29-2430-43da-8edc-953543d47c9d",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-d25887d2-6910-47a5-ae8e-0a183bd4b51f"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "e1d138a3-9e68-438d-9552-3907dd12d39f",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "a49c2f9ecd1c5b23c8c4f19bd3daa907e74add39",
+                "code": "urn:trainline:eurostardirect:extra:meal_on_board-1a1933b25432cfa95db2b2c9659fdb30",
+                "name": "Buy drinks, meals and snacks on board",
+                "description": null,
+                "group": "restaurant"
+              },
+              "farePassengerIds": [
+                "fare-passenger-d25887d2-6910-47a5-ae8e-0a183bd4b51f"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "df7efeab-b8fb-4c5b-8b8c-339ccaea2007",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-d25887d2-6910-47a5-ae8e-0a183bd4b51f"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "2c4384a4-2693-489e-84d2-f39fdd0602c2",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-d25887d2-6910-47a5-ae8e-0a183bd4b51f"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            }
+          ],
+          "comfortClassCorrelationToken": "0d0fb330f90f11f0901165184e403805",
+          "billableUnits": [
+            {
+              "correlationToken": "passenger_1",
+              "fareLegIds": [
+                "fare-leg-4fb23521-ceeb-4a60-bbad-198c83bb782c"
+              ],
+              "originalPrice": {
+                "amount": 262,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "price": {
+                "amount": 262,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "passengerIds": [
+                "pid-0"
+              ]
+            }
+          ],
+          "hash": "ASVp8BsYgsw=",
+          "composition": [],
+          "availableExtras": [
+            {
+              "id": "1631dd29-2430-43da-8edc-953543d47c9d",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-d25887d2-6910-47a5-ae8e-0a183bd4b51f"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "e1d138a3-9e68-438d-9552-3907dd12d39f",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "a49c2f9ecd1c5b23c8c4f19bd3daa907e74add39",
+                "code": "urn:trainline:eurostardirect:extra:meal_on_board-1a1933b25432cfa95db2b2c9659fdb30",
+                "name": "Buy drinks, meals and snacks on board",
+                "description": null,
+                "group": "restaurant"
+              },
+              "farePassengerIds": [
+                "fare-passenger-d25887d2-6910-47a5-ae8e-0a183bd4b51f"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "df7efeab-b8fb-4c5b-8b8c-339ccaea2007",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-d25887d2-6910-47a5-ae8e-0a183bd4b51f"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "2c4384a4-2693-489e-84d2-f39fdd0602c2",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-d25887d2-6910-47a5-ae8e-0a183bd4b51f"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            }
+          ],
+          "savings": [],
+          "expiresAt": "2026-01-24T11:05:47Z"
+        },
+        "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-dead36d2-0067-471a-a2c6-d849c4616486|journey-bf5d15c6-5bf8-412b-a4ad-6324d5323f42": {
+          "id": "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-dead36d2-0067-471a-a2c6-d849c4616486|journey-bf5d15c6-5bf8-412b-a4ad-6324d5323f42",
+          "price": {
+            "amount": 331,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fullPrice": {
+            "amount": 331,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fares": [
+            "fare-c09153f6-0d42-4721-b005-b99f7393b8b9"
+          ],
+          "farePassengers": [
+            {
+              "passengers": [
+                {
+                  "id": "pid-0",
+                  "passengerType": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21"
+                }
+              ],
+              "fareId": "fare-c09153f6-0d42-4721-b005-b99f7393b8b9"
+            }
+          ],
+          "isPartial": false,
+          "flexibility": {
+            "code": "urn:trainline:flex:semiflexi",
+            "name": "semiflexi",
+            "language": "en"
+          },
+          "vendorInformation": {
+            "id": "9c4bb4dd91086a182df549ea63b5675f75824aeb",
+            "code": "urn:trainline:eurostardirect:vendor:eurostardirect",
+            "name": "EurostarDirect",
+            "description": null
+          },
+          "selectedExtras": [
+            {
+              "id": "6c50f3ad-b91b-4af9-abfe-29094d28e74e",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-dd0c918a-2c14-4247-b5c8-e2aa24509246"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "01241355-08c0-4463-a0ff-c4c8a9b6ac97",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "8292f1e2ae8b1c4ec77a146eb50c42fc008c5d3b",
+                "code": "urn:trainline:eurostardirect:extra:meal_at_seat-724df30004897f89b92f3d7914d37ba2",
+                "name": "A delicious light meal and drinks served at your seat",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-dd0c918a-2c14-4247-b5c8-e2aa24509246"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "09f53922-7479-483b-9cd6-34ff887f6fda",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-dd0c918a-2c14-4247-b5c8-e2aa24509246"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "a5097c7c-c277-4193-b18c-c3aefe9cfa18",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-dd0c918a-2c14-4247-b5c8-e2aa24509246"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "177b7c3f-dea8-4f62-8e11-4708228a693b",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-dd0c918a-2c14-4247-b5c8-e2aa24509246"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            }
+          ],
+          "comfortClassCorrelationToken": "0d0fc5bef90f11f08496d1444997a6be",
+          "billableUnits": [
+            {
+              "correlationToken": "passenger_1",
+              "fareLegIds": [
+                "fare-leg-14387076-c81d-4689-9990-eb08b047929a"
+              ],
+              "originalPrice": {
+                "amount": 331,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "price": {
+                "amount": 331,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "passengerIds": [
+                "pid-0"
+              ]
+            }
+          ],
+          "hash": "COi/6E+OH7A=",
+          "composition": [],
+          "availableExtras": [
+            {
+              "id": "6c50f3ad-b91b-4af9-abfe-29094d28e74e",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-dd0c918a-2c14-4247-b5c8-e2aa24509246"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "01241355-08c0-4463-a0ff-c4c8a9b6ac97",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "8292f1e2ae8b1c4ec77a146eb50c42fc008c5d3b",
+                "code": "urn:trainline:eurostardirect:extra:meal_at_seat-724df30004897f89b92f3d7914d37ba2",
+                "name": "A delicious light meal and drinks served at your seat",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-dd0c918a-2c14-4247-b5c8-e2aa24509246"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "09f53922-7479-483b-9cd6-34ff887f6fda",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-dd0c918a-2c14-4247-b5c8-e2aa24509246"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "a5097c7c-c277-4193-b18c-c3aefe9cfa18",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-dd0c918a-2c14-4247-b5c8-e2aa24509246"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "177b7c3f-dea8-4f62-8e11-4708228a693b",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-dd0c918a-2c14-4247-b5c8-e2aa24509246"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            }
+          ],
+          "savings": [],
+          "expiresAt": "2026-01-24T11:05:47Z"
+        },
+        "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-9cf1ff66-6e77-455c-8204-aa76760af3fe|journey-bf5d15c6-5bf8-412b-a4ad-6324d5323f42": {
+          "id": "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-9cf1ff66-6e77-455c-8204-aa76760af3fe|journey-bf5d15c6-5bf8-412b-a4ad-6324d5323f42",
+          "price": {
+            "amount": 400,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fullPrice": {
+            "amount": 400,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fares": [
+            "fare-31d3f659-01bf-4018-b795-aacdeb513b77"
+          ],
+          "farePassengers": [
+            {
+              "passengers": [
+                {
+                  "id": "pid-0",
+                  "passengerType": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21"
+                }
+              ],
+              "fareId": "fare-31d3f659-01bf-4018-b795-aacdeb513b77"
+            }
+          ],
+          "isPartial": false,
+          "flexibility": {
+            "code": "urn:trainline:flex:flexi",
+            "name": "flexi",
+            "language": "en"
+          },
+          "vendorInformation": {
+            "id": "9c4bb4dd91086a182df549ea63b5675f75824aeb",
+            "code": "urn:trainline:eurostardirect:vendor:eurostardirect",
+            "name": "EurostarDirect",
+            "description": null
+          },
+          "selectedExtras": [
+            {
+              "id": "6fa3144b-5985-4e24-9881-16d6cd6174cc",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e11f0af395a0ff21a736f6e2606c729844a1bb76",
+                "code": "urn:trainline:eurostardirect:extra:same_day_boarding_guarantee-6763d4536a3eb77eb1a2d58791147b26",
+                "name": "Same-day boarding guarantee",
+                "description": null,
+                "group": "flexibility"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "932556ad-8dee-4dd7-b74b-ca7b2b9fa157",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "5b663e5e855093f4b5e15b9b9a0881252d75ca72",
+                "code": "urn:trainline:eurostardirect:extra:priority_ticket_gates-242070bf07e02c1366fcbf9b89ab01c5",
+                "name": "Priority ticket gates",
+                "description": null,
+                "group": "boarding"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "1e04b4b4-79cb-4bb6-8b3e-d57f2824924f",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "05481fce1d496224e34845a6433146eac34800c9",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_lounge-27f3799d432e5d30b455983525247298",
+                "name": "Exclusive lounge access in London, Paris and Brussels",
+                "description": null,
+                "group": "departureLounge"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "5cf03a36-3a16-4597-b741-b8e532902cec",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "f49f0c4c0db1fbc12a60b996f4be6691774ef216",
+                "code": "urn:trainline:eurostardirect:extra:premier_luggage-7ad661cedd9be7ed50c6d004993ca239",
+                "name": "3 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "8773d55d-0f47-4a25-89df-6bf843ed1669",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e8feb65b23dd3ec1b38c2a7f9e6179daa3cf5409",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_premier_meal_at_seat-2f663e93afa6035f35d46602c8e1f0fa",
+                "name": "At-seat fine dining and drinks served by your dedicated on-board team",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "e3decf05-38ca-4ba8-8d1e-e66481f0a388",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "8b0f688d-fd14-4112-aa93-b8a1d9f34da8",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "b189cd24-2e11-45d7-855f-ee833a6033be",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            }
+          ],
+          "comfortClassCorrelationToken": "0d0fdd4cf90f11f09420235b9784f95c",
+          "billableUnits": [
+            {
+              "correlationToken": "passenger_1",
+              "fareLegIds": [
+                "fare-leg-01ce1457-b6ad-4e4f-8ab9-bb5607ba5837"
+              ],
+              "originalPrice": {
+                "amount": 400,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "price": {
+                "amount": 400,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "passengerIds": [
+                "pid-0"
+              ]
+            }
+          ],
+          "hash": "7EQmNja6A1Y=",
+          "composition": [],
+          "availableExtras": [
+            {
+              "id": "6fa3144b-5985-4e24-9881-16d6cd6174cc",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e11f0af395a0ff21a736f6e2606c729844a1bb76",
+                "code": "urn:trainline:eurostardirect:extra:same_day_boarding_guarantee-6763d4536a3eb77eb1a2d58791147b26",
+                "name": "Same-day boarding guarantee",
+                "description": null,
+                "group": "flexibility"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "932556ad-8dee-4dd7-b74b-ca7b2b9fa157",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "5b663e5e855093f4b5e15b9b9a0881252d75ca72",
+                "code": "urn:trainline:eurostardirect:extra:priority_ticket_gates-242070bf07e02c1366fcbf9b89ab01c5",
+                "name": "Priority ticket gates",
+                "description": null,
+                "group": "boarding"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "1e04b4b4-79cb-4bb6-8b3e-d57f2824924f",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "05481fce1d496224e34845a6433146eac34800c9",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_lounge-27f3799d432e5d30b455983525247298",
+                "name": "Exclusive lounge access in London, Paris and Brussels",
+                "description": null,
+                "group": "departureLounge"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "5cf03a36-3a16-4597-b741-b8e532902cec",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "f49f0c4c0db1fbc12a60b996f4be6691774ef216",
+                "code": "urn:trainline:eurostardirect:extra:premier_luggage-7ad661cedd9be7ed50c6d004993ca239",
+                "name": "3 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "8773d55d-0f47-4a25-89df-6bf843ed1669",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e8feb65b23dd3ec1b38c2a7f9e6179daa3cf5409",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_premier_meal_at_seat-2f663e93afa6035f35d46602c8e1f0fa",
+                "name": "At-seat fine dining and drinks served by your dedicated on-board team",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "e3decf05-38ca-4ba8-8d1e-e66481f0a388",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "8b0f688d-fd14-4112-aa93-b8a1d9f34da8",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            },
+            {
+              "id": "b189cd24-2e11-45d7-855f-ee833a6033be",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-b56144a5-ac4d-4795-9a65-fd95753a9d24"
+              ],
+              "legIds": [
+                "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7"
+              ]
+            }
+          ],
+          "savings": [],
+          "expiresAt": "2026-01-24T11:05:47Z"
+        },
+        "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-3eeccc43-9814-4d02-a2e7-5893f845c82d|journey-0b837fb8-8a35-4d99-a40f-e03bc28314a3": {
+          "id": "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-3eeccc43-9814-4d02-a2e7-5893f845c82d|journey-0b837fb8-8a35-4d99-a40f-e03bc28314a3",
+          "price": {
+            "amount": 262,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fullPrice": {
+            "amount": 262,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fares": [
+            "fare-8b0274cf-b6fd-4fa9-8684-bc33bc22dab6"
+          ],
+          "farePassengers": [
+            {
+              "passengers": [
+                {
+                  "id": "pid-0",
+                  "passengerType": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21"
+                }
+              ],
+              "fareId": "fare-8b0274cf-b6fd-4fa9-8684-bc33bc22dab6"
+            }
+          ],
+          "isPartial": false,
+          "flexibility": {
+            "code": "urn:trainline:flex:semiflexi",
+            "name": "semiflexi",
+            "language": "en"
+          },
+          "vendorInformation": {
+            "id": "9c4bb4dd91086a182df549ea63b5675f75824aeb",
+            "code": "urn:trainline:eurostardirect:vendor:eurostardirect",
+            "name": "EurostarDirect",
+            "description": null
+          },
+          "selectedExtras": [
+            {
+              "id": "cce8cf4a-76fa-477c-b537-493b8cc3ecc2",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-36a546be-6297-48d1-a36e-f430134f807f"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "05f7511f-7bca-42d5-9948-75332ffa2938",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "a49c2f9ecd1c5b23c8c4f19bd3daa907e74add39",
+                "code": "urn:trainline:eurostardirect:extra:meal_on_board-1a1933b25432cfa95db2b2c9659fdb30",
+                "name": "Buy drinks, meals and snacks on board",
+                "description": null,
+                "group": "restaurant"
+              },
+              "farePassengerIds": [
+                "fare-passenger-36a546be-6297-48d1-a36e-f430134f807f"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "35c08af0-48c9-4e1c-b89b-5f262afd6dc5",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-36a546be-6297-48d1-a36e-f430134f807f"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "bc445622-0e5f-4390-8d08-5731405dec81",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-36a546be-6297-48d1-a36e-f430134f807f"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            }
+          ],
+          "comfortClassCorrelationToken": "0d101a78f90f11f09be28e19656039e3",
+          "billableUnits": [
+            {
+              "correlationToken": "passenger_1",
+              "fareLegIds": [
+                "fare-leg-c29aa81e-cc1d-4f5b-8d78-2ddf28118e89"
+              ],
+              "originalPrice": {
+                "amount": 262,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "price": {
+                "amount": 262,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "passengerIds": [
+                "pid-0"
+              ]
+            }
+          ],
+          "hash": "ASVp8BsYgsw=",
+          "composition": [],
+          "availableExtras": [
+            {
+              "id": "cce8cf4a-76fa-477c-b537-493b8cc3ecc2",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-36a546be-6297-48d1-a36e-f430134f807f"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "05f7511f-7bca-42d5-9948-75332ffa2938",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "a49c2f9ecd1c5b23c8c4f19bd3daa907e74add39",
+                "code": "urn:trainline:eurostardirect:extra:meal_on_board-1a1933b25432cfa95db2b2c9659fdb30",
+                "name": "Buy drinks, meals and snacks on board",
+                "description": null,
+                "group": "restaurant"
+              },
+              "farePassengerIds": [
+                "fare-passenger-36a546be-6297-48d1-a36e-f430134f807f"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "35c08af0-48c9-4e1c-b89b-5f262afd6dc5",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-36a546be-6297-48d1-a36e-f430134f807f"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "bc445622-0e5f-4390-8d08-5731405dec81",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-36a546be-6297-48d1-a36e-f430134f807f"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            }
+          ],
+          "savings": [],
+          "expiresAt": "2026-01-24T11:05:47Z"
+        },
+        "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-bd0b392b-fbea-4d23-8506-e6935f53e568|journey-0b837fb8-8a35-4d99-a40f-e03bc28314a3": {
+          "id": "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-bd0b392b-fbea-4d23-8506-e6935f53e568|journey-0b837fb8-8a35-4d99-a40f-e03bc28314a3",
+          "price": {
+            "amount": 331,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fullPrice": {
+            "amount": 331,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fares": [
+            "fare-925a95f4-1c38-4b0e-bb8a-93733a5c2807"
+          ],
+          "farePassengers": [
+            {
+              "passengers": [
+                {
+                  "id": "pid-0",
+                  "passengerType": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21"
+                }
+              ],
+              "fareId": "fare-925a95f4-1c38-4b0e-bb8a-93733a5c2807"
+            }
+          ],
+          "isPartial": false,
+          "flexibility": {
+            "code": "urn:trainline:flex:semiflexi",
+            "name": "semiflexi",
+            "language": "en"
+          },
+          "vendorInformation": {
+            "id": "9c4bb4dd91086a182df549ea63b5675f75824aeb",
+            "code": "urn:trainline:eurostardirect:vendor:eurostardirect",
+            "name": "EurostarDirect",
+            "description": null
+          },
+          "selectedExtras": [
+            {
+              "id": "f6d49d48-49d0-46b4-a668-eef413a388c1",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-e2b42a69-b8e4-462b-ae1d-bb85e028f9d3"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "88ec5142-6db5-4e3c-9a1e-a89e51d44ad7",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "8292f1e2ae8b1c4ec77a146eb50c42fc008c5d3b",
+                "code": "urn:trainline:eurostardirect:extra:meal_at_seat-724df30004897f89b92f3d7914d37ba2",
+                "name": "A delicious light meal and drinks served at your seat",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-e2b42a69-b8e4-462b-ae1d-bb85e028f9d3"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "451b8e51-401c-4b51-8051-8437a876af1b",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-e2b42a69-b8e4-462b-ae1d-bb85e028f9d3"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "4c3c11e3-5d57-4b5c-bbf1-8e43178508a9",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-e2b42a69-b8e4-462b-ae1d-bb85e028f9d3"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "0f884dcb-3572-47bb-9a84-c52d5623950d",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-e2b42a69-b8e4-462b-ae1d-bb85e028f9d3"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            }
+          ],
+          "comfortClassCorrelationToken": "0d102d56f90f11f098692e04504cf105",
+          "billableUnits": [
+            {
+              "correlationToken": "passenger_1",
+              "fareLegIds": [
+                "fare-leg-f8e98c1f-8411-4da1-a2bc-01f4992a9967"
+              ],
+              "originalPrice": {
+                "amount": 331,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "price": {
+                "amount": 331,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "passengerIds": [
+                "pid-0"
+              ]
+            }
+          ],
+          "hash": "COi/6E+OH7A=",
+          "composition": [],
+          "availableExtras": [
+            {
+              "id": "f6d49d48-49d0-46b4-a668-eef413a388c1",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-e2b42a69-b8e4-462b-ae1d-bb85e028f9d3"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "88ec5142-6db5-4e3c-9a1e-a89e51d44ad7",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "8292f1e2ae8b1c4ec77a146eb50c42fc008c5d3b",
+                "code": "urn:trainline:eurostardirect:extra:meal_at_seat-724df30004897f89b92f3d7914d37ba2",
+                "name": "A delicious light meal and drinks served at your seat",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-e2b42a69-b8e4-462b-ae1d-bb85e028f9d3"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "451b8e51-401c-4b51-8051-8437a876af1b",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-e2b42a69-b8e4-462b-ae1d-bb85e028f9d3"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "4c3c11e3-5d57-4b5c-bbf1-8e43178508a9",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-e2b42a69-b8e4-462b-ae1d-bb85e028f9d3"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "0f884dcb-3572-47bb-9a84-c52d5623950d",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-e2b42a69-b8e4-462b-ae1d-bb85e028f9d3"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            }
+          ],
+          "savings": [],
+          "expiresAt": "2026-01-24T11:05:47Z"
+        },
+        "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-0f716626-4920-4f60-8f9e-4f8f61d38d9b|journey-0b837fb8-8a35-4d99-a40f-e03bc28314a3": {
+          "id": "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-0f716626-4920-4f60-8f9e-4f8f61d38d9b|journey-0b837fb8-8a35-4d99-a40f-e03bc28314a3",
+          "price": {
+            "amount": 400,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fullPrice": {
+            "amount": 400,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fares": [
+            "fare-5c62b17d-9694-4cc1-a438-7c39a006656b"
+          ],
+          "farePassengers": [
+            {
+              "passengers": [
+                {
+                  "id": "pid-0",
+                  "passengerType": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21"
+                }
+              ],
+              "fareId": "fare-5c62b17d-9694-4cc1-a438-7c39a006656b"
+            }
+          ],
+          "isPartial": false,
+          "flexibility": {
+            "code": "urn:trainline:flex:flexi",
+            "name": "flexi",
+            "language": "en"
+          },
+          "vendorInformation": {
+            "id": "9c4bb4dd91086a182df549ea63b5675f75824aeb",
+            "code": "urn:trainline:eurostardirect:vendor:eurostardirect",
+            "name": "EurostarDirect",
+            "description": null
+          },
+          "selectedExtras": [
+            {
+              "id": "e8a614db-ef0b-40db-84fc-4d741a3ef025",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e11f0af395a0ff21a736f6e2606c729844a1bb76",
+                "code": "urn:trainline:eurostardirect:extra:same_day_boarding_guarantee-6763d4536a3eb77eb1a2d58791147b26",
+                "name": "Same-day boarding guarantee",
+                "description": null,
+                "group": "flexibility"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "5a5ceb0c-7127-4b4b-8e79-062d6ce7880a",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "5b663e5e855093f4b5e15b9b9a0881252d75ca72",
+                "code": "urn:trainline:eurostardirect:extra:priority_ticket_gates-242070bf07e02c1366fcbf9b89ab01c5",
+                "name": "Priority ticket gates",
+                "description": null,
+                "group": "boarding"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "b2f7477e-cc92-4776-a58a-ca0951b79b65",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "05481fce1d496224e34845a6433146eac34800c9",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_lounge-27f3799d432e5d30b455983525247298",
+                "name": "Exclusive lounge access in London, Paris and Brussels",
+                "description": null,
+                "group": "departureLounge"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "12663906-b005-4784-b17c-021ce1a17fcc",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "f49f0c4c0db1fbc12a60b996f4be6691774ef216",
+                "code": "urn:trainline:eurostardirect:extra:premier_luggage-7ad661cedd9be7ed50c6d004993ca239",
+                "name": "3 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "bd374ef5-0d02-4680-a32e-91db494f3647",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e8feb65b23dd3ec1b38c2a7f9e6179daa3cf5409",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_premier_meal_at_seat-2f663e93afa6035f35d46602c8e1f0fa",
+                "name": "At-seat fine dining and drinks served by your dedicated on-board team",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "abfe9690-b865-4196-9ca5-48e522604059",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "67c95f4b-f3ef-4e3b-9f61-2531493cec0c",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "c3609128-27ee-40a2-b45d-475fb7e094df",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            }
+          ],
+          "comfortClassCorrelationToken": "0d10449ef90f11f091bc59080fdaf535",
+          "billableUnits": [
+            {
+              "correlationToken": "passenger_1",
+              "fareLegIds": [
+                "fare-leg-7df0099f-ec2d-4b1a-b8e8-4cb5a48c679b"
+              ],
+              "originalPrice": {
+                "amount": 400,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "price": {
+                "amount": 400,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "passengerIds": [
+                "pid-0"
+              ]
+            }
+          ],
+          "hash": "7EQmNja6A1Y=",
+          "composition": [],
+          "availableExtras": [
+            {
+              "id": "e8a614db-ef0b-40db-84fc-4d741a3ef025",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e11f0af395a0ff21a736f6e2606c729844a1bb76",
+                "code": "urn:trainline:eurostardirect:extra:same_day_boarding_guarantee-6763d4536a3eb77eb1a2d58791147b26",
+                "name": "Same-day boarding guarantee",
+                "description": null,
+                "group": "flexibility"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "5a5ceb0c-7127-4b4b-8e79-062d6ce7880a",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "5b663e5e855093f4b5e15b9b9a0881252d75ca72",
+                "code": "urn:trainline:eurostardirect:extra:priority_ticket_gates-242070bf07e02c1366fcbf9b89ab01c5",
+                "name": "Priority ticket gates",
+                "description": null,
+                "group": "boarding"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "b2f7477e-cc92-4776-a58a-ca0951b79b65",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "05481fce1d496224e34845a6433146eac34800c9",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_lounge-27f3799d432e5d30b455983525247298",
+                "name": "Exclusive lounge access in London, Paris and Brussels",
+                "description": null,
+                "group": "departureLounge"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "12663906-b005-4784-b17c-021ce1a17fcc",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "f49f0c4c0db1fbc12a60b996f4be6691774ef216",
+                "code": "urn:trainline:eurostardirect:extra:premier_luggage-7ad661cedd9be7ed50c6d004993ca239",
+                "name": "3 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "bd374ef5-0d02-4680-a32e-91db494f3647",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e8feb65b23dd3ec1b38c2a7f9e6179daa3cf5409",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_premier_meal_at_seat-2f663e93afa6035f35d46602c8e1f0fa",
+                "name": "At-seat fine dining and drinks served by your dedicated on-board team",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "abfe9690-b865-4196-9ca5-48e522604059",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "67c95f4b-f3ef-4e3b-9f61-2531493cec0c",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            },
+            {
+              "id": "c3609128-27ee-40a2-b45d-475fb7e094df",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-5724898a-792d-463f-92b9-6ab4381eb3fa"
+              ],
+              "legIds": [
+                "leg-21bb8a2a-4479-47d9-b172-2fc853188804"
+              ]
+            }
+          ],
+          "savings": [],
+          "expiresAt": "2026-01-24T11:05:47Z"
+        },
+        "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-2153b3f1-88bb-4281-b0e7-1a10a331e2e9|journey-67be808f-b640-44cf-bded-046fde96be83": {
+          "id": "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-2153b3f1-88bb-4281-b0e7-1a10a331e2e9|journey-67be808f-b640-44cf-bded-046fde96be83",
+          "price": {
+            "amount": 262,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fullPrice": {
+            "amount": 262,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fares": [
+            "fare-c922dd94-bbe6-4fdb-9f9e-eea373162117"
+          ],
+          "farePassengers": [
+            {
+              "passengers": [
+                {
+                  "id": "pid-0",
+                  "passengerType": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21"
+                }
+              ],
+              "fareId": "fare-c922dd94-bbe6-4fdb-9f9e-eea373162117"
+            }
+          ],
+          "isPartial": false,
+          "flexibility": {
+            "code": "urn:trainline:flex:semiflexi",
+            "name": "semiflexi",
+            "language": "en"
+          },
+          "vendorInformation": {
+            "id": "9c4bb4dd91086a182df549ea63b5675f75824aeb",
+            "code": "urn:trainline:eurostardirect:vendor:eurostardirect",
+            "name": "EurostarDirect",
+            "description": null
+          },
+          "selectedExtras": [
+            {
+              "id": "247bc8c5-20ac-4207-8298-8fac22a09a11",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-048e9aa9-bbb7-4c21-bd92-dc74e9936219"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "f20e3703-fe61-4629-bfe2-aa01d0016db5",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "a49c2f9ecd1c5b23c8c4f19bd3daa907e74add39",
+                "code": "urn:trainline:eurostardirect:extra:meal_on_board-1a1933b25432cfa95db2b2c9659fdb30",
+                "name": "Buy drinks, meals and snacks on board",
+                "description": null,
+                "group": "restaurant"
+              },
+              "farePassengerIds": [
+                "fare-passenger-048e9aa9-bbb7-4c21-bd92-dc74e9936219"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "aa76d331-9e74-4850-9c45-8c3710cea5ca",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-048e9aa9-bbb7-4c21-bd92-dc74e9936219"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "4213bce1-112e-49a2-a082-7c4f39648d6b",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-048e9aa9-bbb7-4c21-bd92-dc74e9936219"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            }
+          ],
+          "comfortClassCorrelationToken": "0d108350f90f11f0834c927a8344e2d7",
+          "billableUnits": [
+            {
+              "correlationToken": "passenger_1",
+              "fareLegIds": [
+                "fare-leg-3a3e2ec9-20fd-4511-836e-457459db1b3b"
+              ],
+              "originalPrice": {
+                "amount": 262,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "price": {
+                "amount": 262,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "passengerIds": [
+                "pid-0"
+              ]
+            }
+          ],
+          "hash": "ASVp8BsYgsw=",
+          "composition": [],
+          "availableExtras": [
+            {
+              "id": "247bc8c5-20ac-4207-8298-8fac22a09a11",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-048e9aa9-bbb7-4c21-bd92-dc74e9936219"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "f20e3703-fe61-4629-bfe2-aa01d0016db5",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "a49c2f9ecd1c5b23c8c4f19bd3daa907e74add39",
+                "code": "urn:trainline:eurostardirect:extra:meal_on_board-1a1933b25432cfa95db2b2c9659fdb30",
+                "name": "Buy drinks, meals and snacks on board",
+                "description": null,
+                "group": "restaurant"
+              },
+              "farePassengerIds": [
+                "fare-passenger-048e9aa9-bbb7-4c21-bd92-dc74e9936219"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "aa76d331-9e74-4850-9c45-8c3710cea5ca",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-048e9aa9-bbb7-4c21-bd92-dc74e9936219"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "4213bce1-112e-49a2-a082-7c4f39648d6b",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-048e9aa9-bbb7-4c21-bd92-dc74e9936219"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            }
+          ],
+          "savings": [],
+          "expiresAt": "2026-01-24T11:05:47Z"
+        },
+        "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-85bb4601-abf0-4a84-a3da-88299760310d|journey-67be808f-b640-44cf-bded-046fde96be83": {
+          "id": "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-85bb4601-abf0-4a84-a3da-88299760310d|journey-67be808f-b640-44cf-bded-046fde96be83",
+          "price": {
+            "amount": 331,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fullPrice": {
+            "amount": 331,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fares": [
+            "fare-d117bfcf-1d44-44af-915b-c9496481dec1"
+          ],
+          "farePassengers": [
+            {
+              "passengers": [
+                {
+                  "id": "pid-0",
+                  "passengerType": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21"
+                }
+              ],
+              "fareId": "fare-d117bfcf-1d44-44af-915b-c9496481dec1"
+            }
+          ],
+          "isPartial": false,
+          "flexibility": {
+            "code": "urn:trainline:flex:semiflexi",
+            "name": "semiflexi",
+            "language": "en"
+          },
+          "vendorInformation": {
+            "id": "9c4bb4dd91086a182df549ea63b5675f75824aeb",
+            "code": "urn:trainline:eurostardirect:vendor:eurostardirect",
+            "name": "EurostarDirect",
+            "description": null
+          },
+          "selectedExtras": [
+            {
+              "id": "95cc077b-1fcf-41ea-8c97-bc5a1b25caa7",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-8b9952e9-236e-4ec4-97f4-8e54244c0c73"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "ba78866e-6986-49cc-aac6-aad67a17f2c8",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "8292f1e2ae8b1c4ec77a146eb50c42fc008c5d3b",
+                "code": "urn:trainline:eurostardirect:extra:meal_at_seat-724df30004897f89b92f3d7914d37ba2",
+                "name": "A delicious light meal and drinks served at your seat",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-8b9952e9-236e-4ec4-97f4-8e54244c0c73"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "d1379b1b-deda-49b1-95ff-ca5209e66fec",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-8b9952e9-236e-4ec4-97f4-8e54244c0c73"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "5960dd6b-d883-435b-b7e8-0c0f6f612f47",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-8b9952e9-236e-4ec4-97f4-8e54244c0c73"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "81b80f53-b86e-4fc5-942b-9a06284adba7",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-8b9952e9-236e-4ec4-97f4-8e54244c0c73"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            }
+          ],
+          "comfortClassCorrelationToken": "0d1094b2f90f11f0973e4f5777525040",
+          "billableUnits": [
+            {
+              "correlationToken": "passenger_1",
+              "fareLegIds": [
+                "fare-leg-8d3b8389-05e5-4f98-b8cb-0e56e045d170"
+              ],
+              "originalPrice": {
+                "amount": 331,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "price": {
+                "amount": 331,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "passengerIds": [
+                "pid-0"
+              ]
+            }
+          ],
+          "hash": "COi/6E+OH7A=",
+          "composition": [],
+          "availableExtras": [
+            {
+              "id": "95cc077b-1fcf-41ea-8c97-bc5a1b25caa7",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "b85043dd294d48116b5f82f2c4e728218302124f",
+                "code": "urn:trainline:eurostardirect:extra:luggage-70e13846cc3d6cdc66ecb0d41c7108bf",
+                "name": "2 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-8b9952e9-236e-4ec4-97f4-8e54244c0c73"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "ba78866e-6986-49cc-aac6-aad67a17f2c8",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "8292f1e2ae8b1c4ec77a146eb50c42fc008c5d3b",
+                "code": "urn:trainline:eurostardirect:extra:meal_at_seat-724df30004897f89b92f3d7914d37ba2",
+                "name": "A delicious light meal and drinks served at your seat",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-8b9952e9-236e-4ec4-97f4-8e54244c0c73"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "d1379b1b-deda-49b1-95ff-ca5209e66fec",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-8b9952e9-236e-4ec4-97f4-8e54244c0c73"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "5960dd6b-d883-435b-b7e8-0c0f6f612f47",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-8b9952e9-236e-4ec4-97f4-8e54244c0c73"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "81b80f53-b86e-4fc5-942b-9a06284adba7",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-8b9952e9-236e-4ec4-97f4-8e54244c0c73"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            }
+          ],
+          "savings": [],
+          "expiresAt": "2026-01-24T11:05:47Z"
+        },
+        "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-5bd3b2a4-5c57-4cda-9a2c-2cd209eef866|journey-67be808f-b640-44cf-bded-046fde96be83": {
+          "id": "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-5bd3b2a4-5c57-4cda-9a2c-2cd209eef866|journey-67be808f-b640-44cf-bded-046fde96be83",
+          "price": {
+            "amount": 400,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fullPrice": {
+            "amount": 400,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          },
+          "fares": [
+            "fare-b05b12df-12de-4ced-82ba-fc72ec542aab"
+          ],
+          "farePassengers": [
+            {
+              "passengers": [
+                {
+                  "id": "pid-0",
+                  "passengerType": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21"
+                }
+              ],
+              "fareId": "fare-b05b12df-12de-4ced-82ba-fc72ec542aab"
+            }
+          ],
+          "isPartial": false,
+          "flexibility": {
+            "code": "urn:trainline:flex:flexi",
+            "name": "flexi",
+            "language": "en"
+          },
+          "vendorInformation": {
+            "id": "9c4bb4dd91086a182df549ea63b5675f75824aeb",
+            "code": "urn:trainline:eurostardirect:vendor:eurostardirect",
+            "name": "EurostarDirect",
+            "description": null
+          },
+          "selectedExtras": [
+            {
+              "id": "2e78c5f4-9850-42fd-ba92-d12cdaa336d4",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e11f0af395a0ff21a736f6e2606c729844a1bb76",
+                "code": "urn:trainline:eurostardirect:extra:same_day_boarding_guarantee-6763d4536a3eb77eb1a2d58791147b26",
+                "name": "Same-day boarding guarantee",
+                "description": null,
+                "group": "flexibility"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "ed7f724b-8807-4f74-a3a9-ab95afbf1001",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "5b663e5e855093f4b5e15b9b9a0881252d75ca72",
+                "code": "urn:trainline:eurostardirect:extra:priority_ticket_gates-242070bf07e02c1366fcbf9b89ab01c5",
+                "name": "Priority ticket gates",
+                "description": null,
+                "group": "boarding"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "30d1a608-7e1b-4a02-808c-2e820fa9a22d",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "05481fce1d496224e34845a6433146eac34800c9",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_lounge-27f3799d432e5d30b455983525247298",
+                "name": "Exclusive lounge access in London, Paris and Brussels",
+                "description": null,
+                "group": "departureLounge"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "66e88f4f-d2bc-4b90-b620-8568fb741553",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "f49f0c4c0db1fbc12a60b996f4be6691774ef216",
+                "code": "urn:trainline:eurostardirect:extra:premier_luggage-7ad661cedd9be7ed50c6d004993ca239",
+                "name": "3 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "6e8a9625-63f7-4b38-bdd3-2be245a59283",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e8feb65b23dd3ec1b38c2a7f9e6179daa3cf5409",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_premier_meal_at_seat-2f663e93afa6035f35d46602c8e1f0fa",
+                "name": "At-seat fine dining and drinks served by your dedicated on-board team",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "6898d54a-3415-4cc0-b5ad-c9aa552d640a",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "3055a85d-ae39-46d2-b688-140493512799",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "1cf4c58a-c60d-40f9-923a-bca71cbe567c",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            }
+          ],
+          "comfortClassCorrelationToken": "0d10abfaf90f11f088459dc6969764f4",
+          "billableUnits": [
+            {
+              "correlationToken": "passenger_1",
+              "fareLegIds": [
+                "fare-leg-8c00b319-f99b-44b7-8d1c-0f7ca04d9bd5"
+              ],
+              "originalPrice": {
+                "amount": 400,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "price": {
+                "amount": 400,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "passengerIds": [
+                "pid-0"
+              ]
+            }
+          ],
+          "hash": "7EQmNja6A1Y=",
+          "composition": [],
+          "availableExtras": [
+            {
+              "id": "2e78c5f4-9850-42fd-ba92-d12cdaa336d4",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e11f0af395a0ff21a736f6e2606c729844a1bb76",
+                "code": "urn:trainline:eurostardirect:extra:same_day_boarding_guarantee-6763d4536a3eb77eb1a2d58791147b26",
+                "name": "Same-day boarding guarantee",
+                "description": null,
+                "group": "flexibility"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "ed7f724b-8807-4f74-a3a9-ab95afbf1001",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "5b663e5e855093f4b5e15b9b9a0881252d75ca72",
+                "code": "urn:trainline:eurostardirect:extra:priority_ticket_gates-242070bf07e02c1366fcbf9b89ab01c5",
+                "name": "Priority ticket gates",
+                "description": null,
+                "group": "boarding"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "30d1a608-7e1b-4a02-808c-2e820fa9a22d",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "05481fce1d496224e34845a6433146eac34800c9",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_lounge-27f3799d432e5d30b455983525247298",
+                "name": "Exclusive lounge access in London, Paris and Brussels",
+                "description": null,
+                "group": "departureLounge"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "66e88f4f-d2bc-4b90-b620-8568fb741553",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "f49f0c4c0db1fbc12a60b996f4be6691774ef216",
+                "code": "urn:trainline:eurostardirect:extra:premier_luggage-7ad661cedd9be7ed50c6d004993ca239",
+                "name": "3 pieces of luggage + 1 small daypack/handbag",
+                "description": null,
+                "group": "luggage"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "6e8a9625-63f7-4b38-bdd3-2be245a59283",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e8feb65b23dd3ec1b38c2a7f9e6179daa3cf5409",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_premier_meal_at_seat-2f663e93afa6035f35d46602c8e1f0fa",
+                "name": "At-seat fine dining and drinks served by your dedicated on-board team",
+                "description": null,
+                "group": "meal"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "6898d54a-3415-4cc0-b5ad-c9aa552d640a",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "ea43516fd59effaacc9444eb77e52aa9fc6ae5eb",
+                "code": "urn:trainline:eurostardirect:extra:large_seat-5a9f87140845efb9af7cff9734b6444c",
+                "name": "Extra spacious seats",
+                "description": null,
+                "group": "largeSeat"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "3055a85d-ae39-46d2-b688-140493512799",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "e5dec4672b0a45d7f6279ecab72faec5966694c7",
+                "code": "urn:trainline:eurostardirect:extra:wifi-41fe042dea96f419111e4953962609c9",
+                "name": "WiFi",
+                "description": null,
+                "group": "wifi"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            },
+            {
+              "id": "1cf4c58a-c60d-40f9-923a-bca71cbe567c",
+              "price": {
+                "amount": 0,
+                "currencyCode": "EUR",
+                "currencyConversionApplied": false
+              },
+              "selectionStateChangeable": false,
+              "availableQuantity": 1,
+              "extraType": {
+                "id": "0685864b43b77b947efd6e76c92ffccd63e73dd1",
+                "code": "urn:trainline:eurostardirect:extra:uk_continental_outlet-f65c6581849bfab8b0962976c4cad3b6",
+                "name": "UK & EU plug sockets",
+                "description": null,
+                "group": "electricSocket"
+              },
+              "farePassengerIds": [
+                "fare-passenger-f028f089-c132-4d01-9b69-75b367f88046"
+              ],
+              "legIds": [
+                "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332"
+              ]
+            }
+          ],
+          "savings": [],
+          "expiresAt": "2026-01-24T11:05:47Z"
+        }
+      },
+      "responseCards": {},
+      "fares": {
+        "fare-49d10056-232e-4ad0-aa23-356f50878761": {
+          "id": "fare-49d10056-232e-4ad0-aa23-356f50878761",
+          "fareLegs": [
+            {
+              "id": "fare-leg-1bc2a5ff-28d0-4cd7-82bc-05cb8655aff3",
+              "legId": "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8",
+              "travelClass": {
+                "id": "ddee0109bc5f54f18cf8766e6e33abffae3ff1ba",
+                "code": "urn:trainline:eurostardirect:class:economy",
+                "name": "Standard"
+              },
+              "comfort": {
+                "id": "eacf99ea954e66cb92baafbe7cc908339d80d962",
+                "code": "urn:trainline:eurostardirect:comfort:eurostar.standard",
+                "name": "Standard",
+                "description": "Flexible, regular seat.",
+                "allowsComfortChoice": false,
+                "imageUrl": "https://static.trainlinecontent.com/content/WEB/images/carriers-classes/eurostar-standard@4x.png"
+              },
+              "boardBeforeGuaranteed": 3600000,
+              "reservationType": "reserved",
+              "localTransport": []
+            }
+          ],
+          "fareType": "bfc2e02d2a64a0cfc10c560ef37813f05c773153",
+          "cardIds": [],
+          "origin": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "destination": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "availability": {
+            "status": "limited",
+            "remaining": 34
+          },
+          "vouchers": [],
+          "nonContractualTerms": [
+            {
+              "code": "urn:trainline:noncon:eurostar:25feerefundable7days",
+              "title": "Refundable up to 7 days pre-departure for €25/£25/$40",
+              "pictogramKey": "refundable"
+            },
+            {
+              "code": "urn:trainline:noncon:eurostar:100exchangeable1hour",
+              "title": "Exchange with no fee up to 1 hour pre-departure",
+              "pictogramKey": "exchangeable"
+            }
+          ],
+          "hash": "oO9cvpDNB7I=",
+          "deliveryOptions": []
+        },
+        "fare-d5e53450-e809-4ed4-9384-11d9bac5b40e": {
+          "id": "fare-d5e53450-e809-4ed4-9384-11d9bac5b40e",
+          "fareLegs": [
+            {
+              "id": "fare-leg-ef397db5-327e-4aae-b301-0ced785a71e5",
+              "legId": "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8",
+              "travelClass": {
+                "id": "723ef56d8eafce66f4c622e5810340838461d5ce",
+                "code": "urn:trainline:eurostardirect:class:first",
+                "name": "First"
+              },
+              "comfort": {
+                "id": "524c5ef8f3572206b2feb4dd25b4dfcca2c0186c",
+                "code": "urn:trainline:eurostardirect:comfort:eurostar.plus",
+                "name": "Plus",
+                "description": "Flexible, spacious seat.",
+                "allowsComfortChoice": false,
+                "imageUrl": "https://static.trainlinecontent.com/content/WEB/images/carriers-classes/eurostar-plus@4x.png"
+              },
+              "boardBeforeGuaranteed": 3600000,
+              "reservationType": "reserved",
+              "localTransport": []
+            }
+          ],
+          "fareType": "957ef932766ff74bfd12977647e611bc717b8cc3",
+          "cardIds": [],
+          "origin": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "destination": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "availability": {
+            "status": "limited",
+            "remaining": 92
+          },
+          "vouchers": [],
+          "nonContractualTerms": [
+            {
+              "code": "urn:trainline:noncon:eurostar:25feerefundable7days",
+              "title": "Refundable up to 7 days pre-departure for €25/£25/$40",
+              "pictogramKey": "refundable"
+            },
+            {
+              "code": "urn:trainline:noncon:eurostar:100exchangeable1hour",
+              "title": "Exchange with no fee up to 1 hour pre-departure",
+              "pictogramKey": "exchangeable"
+            }
+          ],
+          "hash": "7IFOFAo/XqY=",
+          "deliveryOptions": []
+        },
+        "fare-64f1157b-f60c-44c3-9e28-22c28e8296c4": {
+          "id": "fare-64f1157b-f60c-44c3-9e28-22c28e8296c4",
+          "fareLegs": [
+            {
+              "id": "fare-leg-661c3127-f88c-4b65-a442-61c6df8a7a2a",
+              "legId": "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8",
+              "travelClass": {
+                "id": "723ef56d8eafce66f4c622e5810340838461d5ce",
+                "code": "urn:trainline:eurostardirect:class:first",
+                "name": "First"
+              },
+              "comfort": {
+                "id": "22565011dbb0506ba7ae07b66e8c04ef7d3f3264",
+                "code": "urn:trainline:eurostardirect:comfort:eurostar.premier",
+                "name": "Premier",
+                "description": "Signature Eurostar Experience: Extra flexibility, priority ticket gates, exclusive lounge access in London, Paris and Brussels, dining and drinks served to your extra spacious seat.",
+                "allowsComfortChoice": false,
+                "imageUrl": "https://static.trainlinecontent.com/content/WEB/images/carriers-classes/eurostar-premier@4x.png"
+              },
+              "boardBeforeGuaranteed": 3600000,
+              "reservationType": "reserved",
+              "localTransport": []
+            }
+          ],
+          "fareType": "3ab11bda4b4087b9b679a9bd8083b1597f5466e9",
+          "cardIds": [],
+          "origin": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "destination": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "availability": {
+            "status": "limited",
+            "remaining": 24
+          },
+          "vouchers": [],
+          "nonContractualTerms": [
+            {
+              "code": "urn:trainline:noncon:eurostar:100refundableafter2days",
+              "title": "Refundable with no fee up to 48 hours after departure",
+              "pictogramKey": "refundable"
+            },
+            {
+              "code": "urn:trainline:noncon:eurostar:100exchangeableafter2days",
+              "title": "Exchangeable with no fee up to 48 hours after departure",
+              "pictogramKey": "exchangeable"
+            }
+          ],
+          "hash": "AuoWJRrCA9g=",
+          "deliveryOptions": []
+        },
+        "fare-6752c886-7a45-45e0-8f41-dadbe4bcf425": {
+          "id": "fare-6752c886-7a45-45e0-8f41-dadbe4bcf425",
+          "fareLegs": [
+            {
+              "id": "fare-leg-4fb23521-ceeb-4a60-bbad-198c83bb782c",
+              "legId": "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7",
+              "travelClass": {
+                "id": "ddee0109bc5f54f18cf8766e6e33abffae3ff1ba",
+                "code": "urn:trainline:eurostardirect:class:economy",
+                "name": "Standard"
+              },
+              "comfort": {
+                "id": "eacf99ea954e66cb92baafbe7cc908339d80d962",
+                "code": "urn:trainline:eurostardirect:comfort:eurostar.standard",
+                "name": "Standard",
+                "description": "Flexible, regular seat.",
+                "allowsComfortChoice": false,
+                "imageUrl": "https://static.trainlinecontent.com/content/WEB/images/carriers-classes/eurostar-standard@4x.png"
+              },
+              "boardBeforeGuaranteed": 3600000,
+              "reservationType": "reserved",
+              "localTransport": []
+            }
+          ],
+          "fareType": "bfc2e02d2a64a0cfc10c560ef37813f05c773153",
+          "cardIds": [],
+          "origin": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "destination": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "availability": {
+            "status": "limited",
+            "remaining": 70
+          },
+          "vouchers": [],
+          "nonContractualTerms": [
+            {
+              "code": "urn:trainline:noncon:eurostar:25feerefundable7days",
+              "title": "Refundable up to 7 days pre-departure for €25/£25/$40",
+              "pictogramKey": "refundable"
+            },
+            {
+              "code": "urn:trainline:noncon:eurostar:100exchangeable1hour",
+              "title": "Exchange with no fee up to 1 hour pre-departure",
+              "pictogramKey": "exchangeable"
+            }
+          ],
+          "hash": "oO9cvpDNB7I=",
+          "deliveryOptions": []
+        },
+        "fare-c09153f6-0d42-4721-b005-b99f7393b8b9": {
+          "id": "fare-c09153f6-0d42-4721-b005-b99f7393b8b9",
+          "fareLegs": [
+            {
+              "id": "fare-leg-14387076-c81d-4689-9990-eb08b047929a",
+              "legId": "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7",
+              "travelClass": {
+                "id": "723ef56d8eafce66f4c622e5810340838461d5ce",
+                "code": "urn:trainline:eurostardirect:class:first",
+                "name": "First"
+              },
+              "comfort": {
+                "id": "524c5ef8f3572206b2feb4dd25b4dfcca2c0186c",
+                "code": "urn:trainline:eurostardirect:comfort:eurostar.plus",
+                "name": "Plus",
+                "description": "Flexible, spacious seat.",
+                "allowsComfortChoice": false,
+                "imageUrl": "https://static.trainlinecontent.com/content/WEB/images/carriers-classes/eurostar-plus@4x.png"
+              },
+              "boardBeforeGuaranteed": 3600000,
+              "reservationType": "reserved",
+              "localTransport": []
+            }
+          ],
+          "fareType": "957ef932766ff74bfd12977647e611bc717b8cc3",
+          "cardIds": [],
+          "origin": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "destination": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "availability": {
+            "status": "limited",
+            "remaining": 38
+          },
+          "vouchers": [],
+          "nonContractualTerms": [
+            {
+              "code": "urn:trainline:noncon:eurostar:25feerefundable7days",
+              "title": "Refundable up to 7 days pre-departure for €25/£25/$40",
+              "pictogramKey": "refundable"
+            },
+            {
+              "code": "urn:trainline:noncon:eurostar:100exchangeable1hour",
+              "title": "Exchange with no fee up to 1 hour pre-departure",
+              "pictogramKey": "exchangeable"
+            }
+          ],
+          "hash": "7IFOFAo/XqY=",
+          "deliveryOptions": []
+        },
+        "fare-31d3f659-01bf-4018-b795-aacdeb513b77": {
+          "id": "fare-31d3f659-01bf-4018-b795-aacdeb513b77",
+          "fareLegs": [
+            {
+              "id": "fare-leg-01ce1457-b6ad-4e4f-8ab9-bb5607ba5837",
+              "legId": "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7",
+              "travelClass": {
+                "id": "723ef56d8eafce66f4c622e5810340838461d5ce",
+                "code": "urn:trainline:eurostardirect:class:first",
+                "name": "First"
+              },
+              "comfort": {
+                "id": "22565011dbb0506ba7ae07b66e8c04ef7d3f3264",
+                "code": "urn:trainline:eurostardirect:comfort:eurostar.premier",
+                "name": "Premier",
+                "description": "Signature Eurostar Experience: Extra flexibility, priority ticket gates, exclusive lounge access in London, Paris and Brussels, dining and drinks served to your extra spacious seat.",
+                "allowsComfortChoice": false,
+                "imageUrl": "https://static.trainlinecontent.com/content/WEB/images/carriers-classes/eurostar-premier@4x.png"
+              },
+              "boardBeforeGuaranteed": 3600000,
+              "reservationType": "reserved",
+              "localTransport": []
+            }
+          ],
+          "fareType": "3ab11bda4b4087b9b679a9bd8083b1597f5466e9",
+          "cardIds": [],
+          "origin": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "destination": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "availability": {
+            "status": "limited",
+            "remaining": 55
+          },
+          "vouchers": [],
+          "nonContractualTerms": [
+            {
+              "code": "urn:trainline:noncon:eurostar:100refundableafter2days",
+              "title": "Refundable with no fee up to 48 hours after departure",
+              "pictogramKey": "refundable"
+            },
+            {
+              "code": "urn:trainline:noncon:eurostar:100exchangeableafter2days",
+              "title": "Exchangeable with no fee up to 48 hours after departure",
+              "pictogramKey": "exchangeable"
+            }
+          ],
+          "hash": "AuoWJRrCA9g=",
+          "deliveryOptions": []
+        },
+        "fare-8b0274cf-b6fd-4fa9-8684-bc33bc22dab6": {
+          "id": "fare-8b0274cf-b6fd-4fa9-8684-bc33bc22dab6",
+          "fareLegs": [
+            {
+              "id": "fare-leg-c29aa81e-cc1d-4f5b-8d78-2ddf28118e89",
+              "legId": "leg-21bb8a2a-4479-47d9-b172-2fc853188804",
+              "travelClass": {
+                "id": "ddee0109bc5f54f18cf8766e6e33abffae3ff1ba",
+                "code": "urn:trainline:eurostardirect:class:economy",
+                "name": "Standard"
+              },
+              "comfort": {
+                "id": "eacf99ea954e66cb92baafbe7cc908339d80d962",
+                "code": "urn:trainline:eurostardirect:comfort:eurostar.standard",
+                "name": "Standard",
+                "description": "Flexible, regular seat.",
+                "allowsComfortChoice": false,
+                "imageUrl": "https://static.trainlinecontent.com/content/WEB/images/carriers-classes/eurostar-standard@4x.png"
+              },
+              "boardBeforeGuaranteed": 3600000,
+              "reservationType": "reserved",
+              "localTransport": []
+            }
+          ],
+          "fareType": "bfc2e02d2a64a0cfc10c560ef37813f05c773153",
+          "cardIds": [],
+          "origin": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "destination": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "availability": {
+            "status": "limited",
+            "remaining": 96
+          },
+          "vouchers": [],
+          "nonContractualTerms": [
+            {
+              "code": "urn:trainline:noncon:eurostar:25feerefundable7days",
+              "title": "Refundable up to 7 days pre-departure for €25/£25/$40",
+              "pictogramKey": "refundable"
+            },
+            {
+              "code": "urn:trainline:noncon:eurostar:100exchangeable1hour",
+              "title": "Exchange with no fee up to 1 hour pre-departure",
+              "pictogramKey": "exchangeable"
+            }
+          ],
+          "hash": "oO9cvpDNB7I=",
+          "deliveryOptions": []
+        },
+        "fare-925a95f4-1c38-4b0e-bb8a-93733a5c2807": {
+          "id": "fare-925a95f4-1c38-4b0e-bb8a-93733a5c2807",
+          "fareLegs": [
+            {
+              "id": "fare-leg-f8e98c1f-8411-4da1-a2bc-01f4992a9967",
+              "legId": "leg-21bb8a2a-4479-47d9-b172-2fc853188804",
+              "travelClass": {
+                "id": "723ef56d8eafce66f4c622e5810340838461d5ce",
+                "code": "urn:trainline:eurostardirect:class:first",
+                "name": "First"
+              },
+              "comfort": {
+                "id": "524c5ef8f3572206b2feb4dd25b4dfcca2c0186c",
+                "code": "urn:trainline:eurostardirect:comfort:eurostar.plus",
+                "name": "Plus",
+                "description": "Flexible, spacious seat.",
+                "allowsComfortChoice": false,
+                "imageUrl": "https://static.trainlinecontent.com/content/WEB/images/carriers-classes/eurostar-plus@4x.png"
+              },
+              "boardBeforeGuaranteed": 3600000,
+              "reservationType": "reserved",
+              "localTransport": []
+            }
+          ],
+          "fareType": "957ef932766ff74bfd12977647e611bc717b8cc3",
+          "cardIds": [],
+          "origin": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "destination": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "availability": {
+            "status": "available"
+          },
+          "vouchers": [],
+          "nonContractualTerms": [
+            {
+              "code": "urn:trainline:noncon:eurostar:25feerefundable7days",
+              "title": "Refundable up to 7 days pre-departure for €25/£25/$40",
+              "pictogramKey": "refundable"
+            },
+            {
+              "code": "urn:trainline:noncon:eurostar:100exchangeable1hour",
+              "title": "Exchange with no fee up to 1 hour pre-departure",
+              "pictogramKey": "exchangeable"
+            }
+          ],
+          "hash": "7IFOFAo/XqY=",
+          "deliveryOptions": []
+        },
+        "fare-5c62b17d-9694-4cc1-a438-7c39a006656b": {
+          "id": "fare-5c62b17d-9694-4cc1-a438-7c39a006656b",
+          "fareLegs": [
+            {
+              "id": "fare-leg-7df0099f-ec2d-4b1a-b8e8-4cb5a48c679b",
+              "legId": "leg-21bb8a2a-4479-47d9-b172-2fc853188804",
+              "travelClass": {
+                "id": "723ef56d8eafce66f4c622e5810340838461d5ce",
+                "code": "urn:trainline:eurostardirect:class:first",
+                "name": "First"
+              },
+              "comfort": {
+                "id": "22565011dbb0506ba7ae07b66e8c04ef7d3f3264",
+                "code": "urn:trainline:eurostardirect:comfort:eurostar.premier",
+                "name": "Premier",
+                "description": "Signature Eurostar Experience: Extra flexibility, priority ticket gates, exclusive lounge access in London, Paris and Brussels, dining and drinks served to your extra spacious seat.",
+                "allowsComfortChoice": false,
+                "imageUrl": "https://static.trainlinecontent.com/content/WEB/images/carriers-classes/eurostar-premier@4x.png"
+              },
+              "boardBeforeGuaranteed": 3600000,
+              "reservationType": "reserved",
+              "localTransport": []
+            }
+          ],
+          "fareType": "3ab11bda4b4087b9b679a9bd8083b1597f5466e9",
+          "cardIds": [],
+          "origin": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "destination": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "availability": {
+            "status": "limited",
+            "remaining": 21
+          },
+          "vouchers": [],
+          "nonContractualTerms": [
+            {
+              "code": "urn:trainline:noncon:eurostar:100refundableafter2days",
+              "title": "Refundable with no fee up to 48 hours after departure",
+              "pictogramKey": "refundable"
+            },
+            {
+              "code": "urn:trainline:noncon:eurostar:100exchangeableafter2days",
+              "title": "Exchangeable with no fee up to 48 hours after departure",
+              "pictogramKey": "exchangeable"
+            }
+          ],
+          "hash": "AuoWJRrCA9g=",
+          "deliveryOptions": []
+        },
+        "fare-c922dd94-bbe6-4fdb-9f9e-eea373162117": {
+          "id": "fare-c922dd94-bbe6-4fdb-9f9e-eea373162117",
+          "fareLegs": [
+            {
+              "id": "fare-leg-3a3e2ec9-20fd-4511-836e-457459db1b3b",
+              "legId": "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332",
+              "travelClass": {
+                "id": "ddee0109bc5f54f18cf8766e6e33abffae3ff1ba",
+                "code": "urn:trainline:eurostardirect:class:economy",
+                "name": "Standard"
+              },
+              "comfort": {
+                "id": "eacf99ea954e66cb92baafbe7cc908339d80d962",
+                "code": "urn:trainline:eurostardirect:comfort:eurostar.standard",
+                "name": "Standard",
+                "description": "Flexible, regular seat.",
+                "allowsComfortChoice": false,
+                "imageUrl": "https://static.trainlinecontent.com/content/WEB/images/carriers-classes/eurostar-standard@4x.png"
+              },
+              "boardBeforeGuaranteed": 3600000,
+              "reservationType": "reserved",
+              "localTransport": []
+            }
+          ],
+          "fareType": "bfc2e02d2a64a0cfc10c560ef37813f05c773153",
+          "cardIds": [],
+          "origin": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "destination": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "availability": {
+            "status": "available"
+          },
+          "vouchers": [],
+          "nonContractualTerms": [
+            {
+              "code": "urn:trainline:noncon:eurostar:25feerefundable7days",
+              "title": "Refundable up to 7 days pre-departure for €25/£25/$40",
+              "pictogramKey": "refundable"
+            },
+            {
+              "code": "urn:trainline:noncon:eurostar:100exchangeable1hour",
+              "title": "Exchange with no fee up to 1 hour pre-departure",
+              "pictogramKey": "exchangeable"
+            }
+          ],
+          "hash": "oO9cvpDNB7I=",
+          "deliveryOptions": []
+        },
+        "fare-d117bfcf-1d44-44af-915b-c9496481dec1": {
+          "id": "fare-d117bfcf-1d44-44af-915b-c9496481dec1",
+          "fareLegs": [
+            {
+              "id": "fare-leg-8d3b8389-05e5-4f98-b8cb-0e56e045d170",
+              "legId": "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332",
+              "travelClass": {
+                "id": "723ef56d8eafce66f4c622e5810340838461d5ce",
+                "code": "urn:trainline:eurostardirect:class:first",
+                "name": "First"
+              },
+              "comfort": {
+                "id": "524c5ef8f3572206b2feb4dd25b4dfcca2c0186c",
+                "code": "urn:trainline:eurostardirect:comfort:eurostar.plus",
+                "name": "Plus",
+                "description": "Flexible, spacious seat.",
+                "allowsComfortChoice": false,
+                "imageUrl": "https://static.trainlinecontent.com/content/WEB/images/carriers-classes/eurostar-plus@4x.png"
+              },
+              "boardBeforeGuaranteed": 3600000,
+              "reservationType": "reserved",
+              "localTransport": []
+            }
+          ],
+          "fareType": "957ef932766ff74bfd12977647e611bc717b8cc3",
+          "cardIds": [],
+          "origin": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "destination": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "availability": {
+            "status": "available"
+          },
+          "vouchers": [],
+          "nonContractualTerms": [
+            {
+              "code": "urn:trainline:noncon:eurostar:25feerefundable7days",
+              "title": "Refundable up to 7 days pre-departure for €25/£25/$40",
+              "pictogramKey": "refundable"
+            },
+            {
+              "code": "urn:trainline:noncon:eurostar:100exchangeable1hour",
+              "title": "Exchange with no fee up to 1 hour pre-departure",
+              "pictogramKey": "exchangeable"
+            }
+          ],
+          "hash": "7IFOFAo/XqY=",
+          "deliveryOptions": []
+        },
+        "fare-b05b12df-12de-4ced-82ba-fc72ec542aab": {
+          "id": "fare-b05b12df-12de-4ced-82ba-fc72ec542aab",
+          "fareLegs": [
+            {
+              "id": "fare-leg-8c00b319-f99b-44b7-8d1c-0f7ca04d9bd5",
+              "legId": "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332",
+              "travelClass": {
+                "id": "723ef56d8eafce66f4c622e5810340838461d5ce",
+                "code": "urn:trainline:eurostardirect:class:first",
+                "name": "First"
+              },
+              "comfort": {
+                "id": "22565011dbb0506ba7ae07b66e8c04ef7d3f3264",
+                "code": "urn:trainline:eurostardirect:comfort:eurostar.premier",
+                "name": "Premier",
+                "description": "Signature Eurostar Experience: Extra flexibility, priority ticket gates, exclusive lounge access in London, Paris and Brussels, dining and drinks served to your extra spacious seat.",
+                "allowsComfortChoice": false,
+                "imageUrl": "https://static.trainlinecontent.com/content/WEB/images/carriers-classes/eurostar-premier@4x.png"
+              },
+              "boardBeforeGuaranteed": 3600000,
+              "reservationType": "reserved",
+              "localTransport": []
+            }
+          ],
+          "fareType": "3ab11bda4b4087b9b679a9bd8083b1597f5466e9",
+          "cardIds": [],
+          "origin": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "destination": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "availability": {
+            "status": "limited",
+            "remaining": 23
+          },
+          "vouchers": [],
+          "nonContractualTerms": [
+            {
+              "code": "urn:trainline:noncon:eurostar:100refundableafter2days",
+              "title": "Refundable with no fee up to 48 hours after departure",
+              "pictogramKey": "refundable"
+            },
+            {
+              "code": "urn:trainline:noncon:eurostar:100exchangeableafter2days",
+              "title": "Exchangeable with no fee up to 48 hours after departure",
+              "pictogramKey": "exchangeable"
+            }
+          ],
+          "hash": "AuoWJRrCA9g=",
+          "deliveryOptions": []
+        }
+      },
+      "legs": {
+        "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8": {
+          "id": "leg-bb04692e-3aa2-4e7a-bf17-12baaac07cd8",
+          "duration": "PT2H30M",
+          "departAt": "2026-01-24T12:31:00+00:00",
+          "arriveAt": "2026-01-24T16:01:00+01:00",
+          "timetableId": "9024",
+          "transportDesignation": "ES",
+          "arrivalLocation": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "departureLocation": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "carrier": "d1333bfe5f7ddf352d5e84179cb00cc85be71cb4",
+          "vendorQuotaIdentifier": "ES 9024",
+          "transportMode": "e094715a553efac856f6193af7a06cfcc2cb72ba",
+          "co2EmissionInGramsPerPassenger": 6529,
+          "vehicleAttributes": [],
+          "shouldShowDetails": [],
+          "hash": "ZjPpPmuIU9U="
+        },
+        "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7": {
+          "id": "leg-6ffaa9cd-ca3a-405d-b6d3-7918e1dbf6b7",
+          "duration": "PT2H18M",
+          "departAt": "2026-01-24T14:31:00+00:00",
+          "arriveAt": "2026-01-24T17:49:00+01:00",
+          "timetableId": "9032",
+          "transportDesignation": "ES",
+          "arrivalLocation": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "departureLocation": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "carrier": "d1333bfe5f7ddf352d5e84179cb00cc85be71cb4",
+          "vendorQuotaIdentifier": "ES 9032",
+          "transportMode": "e094715a553efac856f6193af7a06cfcc2cb72ba",
+          "co2EmissionInGramsPerPassenger": 6529,
+          "vehicleAttributes": [],
+          "shouldShowDetails": [],
+          "hash": "Dj+OKVwOLiA="
+        },
+        "leg-21bb8a2a-4479-47d9-b172-2fc853188804": {
+          "id": "leg-21bb8a2a-4479-47d9-b172-2fc853188804",
+          "duration": "PT2H18M",
+          "departAt": "2026-01-24T15:31:00+00:00",
+          "arriveAt": "2026-01-24T18:49:00+01:00",
+          "timetableId": "9036",
+          "transportDesignation": "ES",
+          "arrivalLocation": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "departureLocation": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "carrier": "d1333bfe5f7ddf352d5e84179cb00cc85be71cb4",
+          "vendorQuotaIdentifier": "ES 9036",
+          "transportMode": "e094715a553efac856f6193af7a06cfcc2cb72ba",
+          "co2EmissionInGramsPerPassenger": 6529,
+          "vehicleAttributes": [],
+          "shouldShowDetails": [],
+          "hash": "XmeUoXJ4cBU="
+        },
+        "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332": {
+          "id": "leg-ee7201e0-f6fe-49d3-8b09-dd2bdbc42332",
+          "duration": "PT2H18M",
+          "departAt": "2026-01-24T16:31:00+00:00",
+          "arriveAt": "2026-01-24T19:49:00+01:00",
+          "timetableId": "9040",
+          "transportDesignation": "ES",
+          "arrivalLocation": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+          "departureLocation": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+          "carrier": "d1333bfe5f7ddf352d5e84179cb00cc85be71cb4",
+          "vendorQuotaIdentifier": "ES 9040",
+          "transportMode": "e094715a553efac856f6193af7a06cfcc2cb72ba",
+          "co2EmissionInGramsPerPassenger": 6529,
+          "vehicleAttributes": [],
+          "shouldShowDetails": [],
+          "hash": "OXmBIKNRmmc="
+        }
+      },
+      "sections": {
+        "section-b47a8993-4763-46fe-a473-7e24fb868139": {
+          "alternatives": [
+            "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-303c392b-1624-4ebf-b04e-d356aa11de68|journey-71d79b0d-67aa-481d-b85f-1ad383cd7467",
+            "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-7f9f8ea9-fb93-46eb-a580-fa35f3fd4316|journey-71d79b0d-67aa-481d-b85f-1ad383cd7467",
+            "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-81392910-3069-4ac2-9c02-4a784e8d1e46|journey-71d79b0d-67aa-481d-b85f-1ad383cd7467"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-b47a8993-4763-46fe-a473-7e24fb868139"
+        },
+        "section-007a4fa0-ef77-4f33-b2e0-ac06e6d91892": {
+          "alternatives": [
+            "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-6f082d69-1f2f-4442-9b18-359b3381a9b6|journey-bf5d15c6-5bf8-412b-a4ad-6324d5323f42",
+            "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-dead36d2-0067-471a-a2c6-d849c4616486|journey-bf5d15c6-5bf8-412b-a4ad-6324d5323f42",
+            "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-9cf1ff66-6e77-455c-8204-aa76760af3fe|journey-bf5d15c6-5bf8-412b-a4ad-6324d5323f42"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-007a4fa0-ef77-4f33-b2e0-ac06e6d91892"
+        },
+        "section-c47b346d-26c4-4072-98e6-c99c4b07d490": {
+          "alternatives": [
+            "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-3eeccc43-9814-4d02-a2e7-5893f845c82d|journey-0b837fb8-8a35-4d99-a40f-e03bc28314a3",
+            "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-bd0b392b-fbea-4d23-8506-e6935f53e568|journey-0b837fb8-8a35-4d99-a40f-e03bc28314a3",
+            "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-0f716626-4920-4f60-8f9e-4f8f61d38d9b|journey-0b837fb8-8a35-4d99-a40f-e03bc28314a3"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-c47b346d-26c4-4072-98e6-c99c4b07d490"
+        },
+        "section-4fba7334-c088-4fe1-8c87-c2b5b6ac2012": {
+          "alternatives": [
+            "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-2153b3f1-88bb-4281-b0e7-1a10a331e2e9|journey-67be808f-b640-44cf-bded-046fde96be83",
+            "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-85bb4601-abf0-4a84-a3da-88299760310d|journey-67be808f-b640-44cf-bded-046fde96be83",
+            "495e56c7-3e9b-40c8-b61b-34e2f563c961%alternative-5bd3b2a4-5c57-4cda-9a2c-2cd209eef866|journey-67be808f-b640-44cf-bded-046fde96be83"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-4fba7334-c088-4fe1-8c87-c2b5b6ac2012"
+        }
+      },
+      "deliveryOptions": {},
+      "inwardSearch": false
+    },
+    "brands": {},
+    "carriers": {
+      "d1333bfe5f7ddf352d5e84179cb00cc85be71cb4": {
+        "id": "d1333bfe5f7ddf352d5e84179cb00cc85be71cb4",
+        "code": "urn:trainline:eurostardirect:carrier:eurostar",
+        "name": "Eurostar",
+        "ricsCode": null
+      }
+    },
+    "locations": {
+      "c3ef6b20d75ce01b807dc6824b30baf3e94fc520": {
+        "id": "c3ef6b20d75ce01b807dc6824b30baf3e94fc520",
+        "code": "urn:trainline:eurostar:loc:8727100",
+        "locationType": "station",
+        "name": "Paris Gare du Nord",
+        "shortName": null,
+        "latitude": 48.8802,
+        "longitude": 2.3552,
+        "timezone": "Europe/Paris",
+        "countryCode": "FR",
+        "language": null,
+        "address": null,
+        "aliases": null,
+        "parents": []
+      },
+      "028ac91f4744ade36a69d3fea8e77ff32b824ad0": {
+        "id": "028ac91f4744ade36a69d3fea8e77ff32b824ad0",
+        "code": "urn:trainline:eurostar:loc:7015400",
+        "locationType": "station",
+        "name": "London St Pancras International",
+        "shortName": null,
+        "latitude": 51.5319,
+        "longitude": -0.1264,
+        "timezone": "Europe/London",
+        "countryCode": "GB",
+        "language": null,
+        "address": null,
+        "aliases": null,
+        "parents": []
+      }
+    },
+    "discountCards": {},
+    "disruptions": {},
+    "fareTypes": {
+      "bfc2e02d2a64a0cfc10c560ef37813f05c773153": {
+        "id": "bfc2e02d2a64a0cfc10c560ef37813f05c773153",
+        "code": "urn:trainline:eurostardirect:fare:807436929c8999194d9ceb499b47327b",
+        "name": "Eurostar Standard",
+        "conditionsSummary": "Exchange without a fee 1 hour before original departure time. If new ticket is more expensive, you'll pay the difference. If new ticket is cheaper, the difference will not be refunded. Refundable with a €25/£25/$40 fee per person per leg up to 7 days before the departure date. Tickets exchanged less than 7 days before the departure date will become non-refundable.",
+        "conditions": [
+          {
+            "title": "DESCRIPTION",
+            "description": "Exchange without a fee 1 hour before original departure time. If new ticket is more expensive, you'll pay the difference. If new ticket is cheaper, the difference will not be refunded. Refundable with a €25/£25/$40 fee per person per leg up to 7 days before the departure date. Tickets exchanged less than 7 days before the departure date will become non-refundable."
+          }
+        ],
+        "farePricingCategory": "default",
+        "secondaryFare": null,
+        "validityPeriods": null
+      },
+      "957ef932766ff74bfd12977647e611bc717b8cc3": {
+        "id": "957ef932766ff74bfd12977647e611bc717b8cc3",
+        "code": "urn:trainline:eurostardirect:fare:5f1c216157d6f952476a0ddfc2565585",
+        "name": "Eurostar Plus",
+        "conditionsSummary": "Exchange without a fee 1 hour before original departure time. If new ticket is more expensive, you'll pay the difference. If new ticket is cheaper, the difference will not be refunded. Refundable with a €25/£25/$40 fee per person per leg up to 7 days before the departure date. Tickets exchanged less than 7 days before the departure date will become non-refundable.",
+        "conditions": [
+          {
+            "title": "DESCRIPTION",
+            "description": "Exchange without a fee 1 hour before original departure time. If new ticket is more expensive, you'll pay the difference. If new ticket is cheaper, the difference will not be refunded. Refundable with a €25/£25/$40 fee per person per leg up to 7 days before the departure date. Tickets exchanged less than 7 days before the departure date will become non-refundable."
+          }
+        ],
+        "farePricingCategory": "default",
+        "secondaryFare": null,
+        "validityPeriods": null
+      },
+      "3ab11bda4b4087b9b679a9bd8083b1597f5466e9": {
+        "id": "3ab11bda4b4087b9b679a9bd8083b1597f5466e9",
+        "code": "urn:trainline:eurostardirect:fare:488924f00a7ff7d3a53c359e15c416fd",
+        "name": "Eurostar Premier",
+        "conditionsSummary": "Exchangeable without a fee up to 48 hours after the original departure time. If your new ticket is more expensive, you’ll pay the difference. If your new ticket is cheaper, the difference will not be refunded. Refundable without a fee up to 48 hours after the original departure time.",
+        "conditions": [
+          {
+            "title": "DESCRIPTION",
+            "description": "Exchangeable without a fee up to 48 hours after the original departure time. If your new ticket is more expensive, you’ll pay the difference. If your new ticket is cheaper, the difference will not be refunded. Refundable without a fee up to 48 hours after the original departure time."
+          }
+        ],
+        "farePricingCategory": "default",
+        "secondaryFare": null,
+        "validityPeriods": null
+      }
+    },
+    "routeRestrictions": {},
+    "fareRestrictions": {},
+    "fareCategories": {},
+    "transportModes": {
+      "e094715a553efac856f6193af7a06cfcc2cb72ba": {
+        "id": "e094715a553efac856f6193af7a06cfcc2cb72ba",
+        "code": "urn:trainline:eurostardirect:tramod:train",
+        "name": "Train",
+        "mode": "train"
+      }
+    },
+    "passengerTypes": {
+      "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21": {
+        "id": "74cbfb6a10b45651ce3f23c247dc7a7ca5e5ef21",
+        "name": "adult",
+        "code": "urn:trainline:eurostardirect:psgr:adult",
+        "ageRestriction": {
+          "lowerBound": 12
+        }
+      }
+    },
+    "appliedDiscounts": {}
+  }
+}
