@@ -3,32 +3,27 @@
 module Bot
   module TheTrainLine
     class Segment
-      attr_reader :id
+      attr_reader :id, :legs
       attr_accessor :departure_station,
                     :departure_at,
                     :arrival_station,
                     :arrival_at,
                     :service_agencies,
-                    :fares,
-                    :legs,
-                    :sections
+                    :fares
 
-      def initialize(id)
+      def initialize(id:, origin:, destination:, depart_at:, arrive_at:)
         @id = id
+        @arrival_at = origin
+        @departure_at = destination
+
+        @departure_at = DateTime.parse(depart_at)
+        @arrival_at = DateTime.parse(arrive_at)
+
         # WARN: JSON data from TrainLine does not have any information about service providers
         # assume for now
         @service_agencies = ['thetrainline']
         @fares = []
         @legs = []
-        @sections = []
-      end
-
-      def self.from_json(hash)
-        segment = new(hash['id'])
-        segment.departure_at = DateTime.parse(hash['departAt'])
-        segment.arrival_at = DateTime.parse(hash['arriveAt'])
-
-        segment
       end
 
       def duration_in_minutes
@@ -36,7 +31,16 @@ module Bot
       end
 
       def products
-        legs.map(&:mode)
+        legs.map(&:mode_name).uniq
+      end
+
+      def assign_legs(legs = [])
+        @legs = []
+        legs.each do |leg|
+          raise InvalidLeg if leg.class != Bot::TheTrainLine::Leg
+
+          @legs.push(leg)
+        end
       end
 
       def changeovers

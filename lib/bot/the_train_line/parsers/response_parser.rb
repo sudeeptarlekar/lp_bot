@@ -33,14 +33,15 @@ module Bot
 
       def parse_fares
         @fares = json_data['journeySearch']['fares'].each_with_object({}) do |(id, fare_hash), fares|
-          fare = Fare.new(id: fare_hash['id'], type: fare_types[fare_hash['fareType']])
+          type_id = fare_hash['fareType']
+          fare = Fare.new(id: fare_hash['id'], type_id: type_id, name: fare_types[type_id].name)
           fares[id] = fare
         end
       end
 
       def parse_legs
         @legs = json_data['journeySearch']['legs'].each_with_object({}) do |(leg_id, leg_hash), legs|
-          leg = Leg.new(id: leg_id, transport_mode: transports[leg_hash['transportMode']])
+          leg = Leg.new(id: leg_id, mode_name: transports[leg_hash['transportMode']].mode)
           legs[leg_id] = leg
         end
       end
@@ -59,24 +60,27 @@ module Bot
 
       def parse_journeys
         @journeys = json_data['journeySearch']['journeys'].each_with_object({}) do |(journey_id, journey_hash), segments|
-          next if DateTime.parse(journey_hash['departAt']) < departure_time
+          # next if DateTime.parse(journey_hash['departAt']) < departure_time
 
-          segment = Segment.from_json(journey_hash)
+          segment = Segment.new(id: journey_hash['id'], origin: origin, destination: destination,
+                                departure_at: journey_hash['departAt'], arrival_at: journey_hash['arriveAt'])
 
-          segment.departure_station = origin
-          segment.arrival_station = destination
-          segment.legs = journey_hash['legs'].map { |leg_id| legs[leg_id] }
-          segment.sections = journey_hash['sections'].map { |section_id| sections[section_id] }
+          segment.assign_legs(journey_hash['legs'].map { |leg_id| legs[leg_id] })
           segment.fares = journey_hash['sections'].map { |section_id| sections[section_id].alternatives }
                                                   .flatten
                                                   .uniq
-                                                  .map { |alt_id| json_data['journeySearch']['alternatives'][alt_id] }
-                                                  .map do |alternative|
-                                                    SegmentFare.new(fare: fares[alternative['fares'].first],
-                                                                    price: alternative['fullPrice']['amount'], currency: alternative['fullPrice']['currencyCode'])
-          end
+                                                  .map { |alt_id| build_segment_fares(json_data['journeySearch']['alternatives'][alt_id]) }
           segments[journey_id] = segment
         end
+      end
+
+      def build_segment_fares(alternative_hash)
+        # TODO: It is assumed that query will only be for single person
+        fare_name = fares[alternative_hash['fares'].first].name
+        price = alternative_hash['fullPrice']['amount']
+        currency = alternative_hash['fullPrice']['currencyCode']
+
+        SegmentFare.new(fare_name: fare_name, price: price, currency: currency)
       end
     end
   end

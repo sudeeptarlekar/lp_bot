@@ -2,16 +2,18 @@
 
 module Bot
   module TheTrainLine
+    class InvalidLeg < StandardError
+      def initialize(msg = 'Invalid Leg type detected; Leg should be object of class Bot::TheTrainLine::Leg')
+        super(msg)
+      end
+    end
+
     class Leg
-      extend Forwardable
+      attr_accessor :id, :mode_name
 
-      attr_accessor :id, :transport_mode
-
-      def_delegator :transport_mode, :name, :mode
-
-      def initialize(id:, transport_mode:)
+      def initialize(id:, mode_name:)
         @id = id
-        @transport_mode = transport_mode
+        @mode_name = mode_name
       end
     end
   end
