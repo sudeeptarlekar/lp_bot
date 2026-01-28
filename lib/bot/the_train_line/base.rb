@@ -1,37 +1,52 @@
 # frozen_string_literal: true
 
-require_relative 'location'
-require_relative 'fare'
-require_relative 'leg'
-require_relative 'transport_mode'
-require_relative 'section'
-require_relative 'segment'
-require_relative 'parsers/response_parser'
-
 require 'refinements'
+require 'money'
+
+require_relative 'parsers/base'
+require_relative 'parsers/fare_parser'
+require_relative 'parsers/fare_type_parser'
+require_relative 'parsers/journey_parser'
+require_relative 'parsers/leg_parser'
+require_relative 'parsers/orchestrator'
+require_relative 'parsers/section_parser'
+require_relative 'parsers/transport_mode_parser'
+
+require_relative 'data_models/base'
+require_relative 'data_models/file_data_model'
+require_relative 'data_models/api_data_model'
+
+require_relative 'journey_search_service'
+require_relative 'result'
+
+require_relative 'models/fare'
+require_relative 'models/leg'
+require_relative 'models/location'
+require_relative 'models/section'
+require_relative 'models/segment'
+require_relative 'models/transport_mode'
 
 using Refinements
 
 module Bot
   module TheTrainLine
     class << self
-      def find(from, to, departure_time = DateTime.now)
+      def find(from, to, departure_time = DateTime.now, data_model = default_data_model)
         # origin = Location.fetch(from)
         # destination = Location.fetch(to)
 
-        json_data = fetch_data(from, to)
-        parser = ResponseParser.new(json_data, departure_time, from, to)
-        parser.parse
-        puts(JSON.pretty_generate(parser.journeys.map { |_id, journey| journey.as_json }))
+        result = JourneySearchService.new.search(origin: from, destination: to, departure_time: departure_time)
+        if result.success?
+          puts(JSON.pretty_generate(result.data))
+          # result.data
+        else
+          puts "Error: #{result.error}"
+          # []
+        end
       end
 
-      private
-
-      def fetch_data(origin, destination)
-        JSON.parse(File.read("./data/#{origin.to_filename}_to_#{destination.to_filename}.json"))['data']
-      rescue Errno::ENOENT => _e
-        puts "No journeys present between #{origin.name} to #{destination.name}"
-        exit(0)
+      def default_data_model
+        DataModels::FileDataModel.new
       end
     end
   end

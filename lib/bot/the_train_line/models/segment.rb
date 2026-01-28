@@ -13,8 +13,8 @@ module Bot
 
       def initialize(id:, origin:, destination:, depart_at:, arrive_at:)
         @id = id
-        @arrival_at = origin
-        @departure_at = destination
+        @arrival_station = destination
+        @departure_station = origin
 
         @departure_at = DateTime.parse(depart_at)
         @arrival_at = DateTime.parse(arrive_at)

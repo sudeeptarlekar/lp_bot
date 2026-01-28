@@ -11,10 +11,6 @@ module Bot
         @mode = mode
         @code = code
       end
-
-      def self.from_json(json)
-        new(id: json['id'], name: json['name'], code: json['code'], mode: json['mode'])
-      end
     end
   end
 end

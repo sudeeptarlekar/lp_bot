@@ -15,7 +15,7 @@ describe Bot::TheTrainLine::Location do
         .and_return(response)
     end
 
-    describe 'when location is valid' do
+    context 'when location is valid' do
       let(:name) { 'London' }
       let(:response) do
         {
@@ -36,7 +36,7 @@ describe Bot::TheTrainLine::Location do
       end
     end
 
-    describe 'when location is invalid' do
+    context 'when location is invalid' do
       let(:name) { 'fake' }
       let(:response) do
         {
@@ -46,6 +46,24 @@ describe Bot::TheTrainLine::Location do
 
       it 'raises InvalidLocationError' do
         expect { described_class.fetch(name) }.to raise_error Bot::TheTrainLine::InvalidLocationError
+      end
+    end
+  end
+
+  describe '#valid?' do
+    context 'when location code is other than `invalid`' do
+      subject { described_class.new(name: 'Berlin', type: 'station').valid? }
+
+      it 'returns false' do
+        expect(subject).to be false
+      end
+    end
+
+    context 'when location code is set to `invalid`' do
+      subject { described_class.new(name: 'Berlin', type: 'station', code: 'urn:station:1234').valid? }
+
+      it 'returns true' do
+        expect(subject).to be true
       end
     end
   end
