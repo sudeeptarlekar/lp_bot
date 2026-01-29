@@ -15,16 +15,17 @@ gem install bot
 ## Usage
 
 ```ruby
-require 'awesome_print' # => To Print the visual represented output on terminal
+# Configure data path where static data is stored
 
-require_relative 'lp_bot'
+Bot.configure do |c|
+  c.data_path = "./data"
+end
 
 # Search for journeys
-results = Bot::Thetrainline.find("London", "Paris")
+results = Bot::Thetrainline.find("London", "Paris", DateTime.now)
 
 # Results is an array of journey segments
-ap results
-
+results.data
 ```
 
 ## API
@@ -40,29 +41,22 @@ Since the Trainline API requires authentication, you can capture real data using
 1. Open https://www.thetrainline.com in your browser
 2. Open DevTools (F12) → Network tab
 3. Make a search (e.g., London to Paris)
-4. Find the `journey-search` POST request
+4. Find the `api/journey-search` POST request
 5. Copy the Response JSON
-6. Save to `data/london_to_paris.json`
-7. Update the code to load from this file
+6. Save to `london_to_paris.json` to directory
+7. Update the code to load from this file using configuration
 
 ### Using Static Data
 
 ```ruby
 # Load captured data
-module Bot
-  class Thetrainline
-    def self.find(from, to, departure_at)
-      file = "data/responses/#{from.downcase}_to_#{to.downcase}.json"
-      
-      if File.exist?(file)
-        data = JSON.parse(File.read(file))
-        parse_journeys(data)
-      else
-        generate_sample_journeys(from, to, departure_at)
-      end
-    end
-  end
+Bot.configure do |c|
+  c.data_path = "./data" # Path where static data is stored
 end
+
+result = Bot::TheTrainLine.find('London', 'Paris', DateTime.now)
+
+puts result
 ```
 
 ## Alternative: Browser Automation
