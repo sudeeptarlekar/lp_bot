@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+using Refinements
+
 module Bot
   module TheTrainLine
     module DataModels
@@ -20,7 +22,7 @@ module Bot
         private
 
         def format_location(location)
-          location.to_s.downcase.gsub(/\s/, '_')
+          location.to_s.to_filename
         end
       end
     end

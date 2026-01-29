@@ -26,8 +26,6 @@ require_relative 'models/section'
 require_relative 'models/segment'
 require_relative 'models/transport_mode'
 
-using Refinements
-
 module Bot
   module TheTrainLine
     class << self
