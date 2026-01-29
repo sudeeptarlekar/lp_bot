@@ -24,7 +24,8 @@ module Bot
       def validate_inputs!(origin, destination, departure_time)
         raise ArgumentError, 'Origin cannot be blank' if origin.to_s.strip.empty?
         raise ArgumentError, 'Destination cannot be blank' if destination.to_s.strip.empty?
-        # raise ArgumentError, "Departure time must be in the future" if departure_time < DateTime.now
+        # TODO: Skipped this validation as only static data is considered.
+        # raise ArgumentError, 'Departure time must be in the future' if departure_time < DateTime.now
       end
 
       def parse_journey_data(data, origin, destination, departure_time)

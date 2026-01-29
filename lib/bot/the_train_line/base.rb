@@ -38,10 +38,10 @@ module Bot
         result = JourneySearchService.new.search(origin: from, destination: to, departure_time: departure_time)
         if result.success?
           puts(JSON.pretty_generate(result.data))
-          # result.data
+          result.data
         else
           puts "Error: #{result.error}"
-          # []
+          []
         end
       end
 

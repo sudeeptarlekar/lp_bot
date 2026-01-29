@@ -4,7 +4,7 @@ module Bot
   module TheTrainLine
     module DataModels
       class FileDataModel < BaseModel
-        def initialize(data_dir: './data')
+        def initialize(data_dir: Bot::Configuration.default.data_path)
           @data_dir = data_dir
         end
 
