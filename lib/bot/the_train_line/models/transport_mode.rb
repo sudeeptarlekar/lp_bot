@@ -7,9 +7,9 @@ module Bot
 
       def initialize(id:, code:, name:, mode:)
         @id = id
+        @code = code
         @name = name
         @mode = mode
-        @code = code
       end
     end
   end

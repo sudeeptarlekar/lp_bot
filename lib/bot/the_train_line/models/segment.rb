@@ -44,7 +44,7 @@ module Bot
       end
 
       def changeovers
-        legs.count - 1
+        legs.empty? ? 0 : legs.count - 1
       end
 
       def as_json

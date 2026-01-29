@@ -10,7 +10,7 @@ module Bot
         end
 
         def fetch(origin, destination, departure_time = DateTime.now)
-          raise DataNotFound
+          raise DataNotFoundError
 
           # Future implementation for real API calls
           response = @api_client.get(

@@ -1,70 +1,27 @@
-# frozen_string_literal
+# frozen_string_literal: true
 
-describe Bot::TheTrainLine::SegmentFare do
-  let(:segment_fare) { described_class.new(fare_name: 'Comfort', price: price, currency: currency_code) }
+RSpec.describe Bot::TheTrainLine::Fare do
+  describe '#initialize' do
+    it 'sets id, type_id and name' do
+      fare = described_class.new(id: 1, type_id: 10, name: 'Advance Single')
 
-  let(:price) { 1 }
-  let(:currency_code) { 'EUR' }
-
-  describe '#price_in_cents' do
-    subject { segment_fare.price_in_cents }
-
-    context 'when price is negative' do
-      let(:price) { -1 }
-
-      it 'returns negative price in fractions' do
-        expect(subject).to eq(-100)
-      end
-    end
-
-    context 'when currency fraction is different' do
-      let(:currency_code) { 'KWD' }
-
-      it 'returns fraction price of currency' do
-        expect(subject).to eq(1000)
-      end
-    end
-
-    context 'when price is imaginary' do
-      let(:price) { Complex(1) }
-
-      it 'returns price in fraction for real part ignoring imaginary part' do
-        expect(subject).to eq(100)
-      end
+      expect(fare.id).to eq(1)
+      expect(fare.type_id).to eq(10)
+      expect(fare.name).to eq('Advance Single')
     end
   end
 
-  describe '#currency' do
-    subject { segment_fare.currency }
+  describe 'attr_accessors' do
+    it 'allows reading and writing attributes' do
+      fare = described_class.new(id: 1, type_id: 10, name: 'Advance Single')
 
-    context 'when currency code is valid' do
-      it 'returns the ISO currency code' do
-        expect(subject).to eq('EUR')
-      end
-    end
+      fare.id = 2
+      fare.type_id = 20
+      fare.name = 'Off-Peak Return'
 
-    context 'when currency code is not valid' do
-      let(:currency_code) { 'TEST' }
-
-      it 'raises an error' do
-        expect { subject }.to raise_error Money::Currency::UnknownCurrency
-      end
-    end
-  end
-
-  describe '#as_json' do
-    subject { segment_fare.as_json }
-
-    let(:json) do
-      {
-        name: 'Comfort',
-        price_in_cents: 100,
-        currency: 'EUR'
-      }
-    end
-
-    it 'returns the JSON for the object' do
-      expect(subject).to eq(json)
+      expect(fare.id).to eq(2)
+      expect(fare.type_id).to eq(20)
+      expect(fare.name).to eq('Off-Peak Return')
     end
   end
 end
