@@ -32,6 +32,7 @@ module Bot
   module TheTrainLine
     class << self
       def find(from, to, departure_time = DateTime.now, data_model = default_data_model)
+        # TODO: Enable once API integration is setup
         # origin = Location.fetch(from)
         # destination = Location.fetch(to)
 
